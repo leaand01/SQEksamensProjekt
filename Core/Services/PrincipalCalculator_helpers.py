@@ -54,6 +54,7 @@ def convert_to_percentage(value: Union[float, int]) -> float:
 
 def convert_back_to_input_percentage_string(value: Union[float, int]) -> str:
     n_dec = min(n_decimals(value) - 2, 3)
+    n_dec = max(n_dec, 0)
     return '{:.{}%}'.format(value, n_dec).replace('.', ',').replace('%', '')
 
 

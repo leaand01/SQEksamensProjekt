@@ -14,7 +14,7 @@ principal = Principal(banks=banks, processor=ProcessUserInputs())
 # principal_partial = partial(Principal, banks=banks)
 
 #
-# user_inputs = {'house_price': '1.000.000', 'down_payment': '50.000', 'bond_price': '95,558', 'dropdown': 'Totalkredit'}
+# user_inputs = {'house_price': '1.000.000', 'down_payment': '50.000', 'bond_price': '200', 'dropdown': 'Totalkredit'}
 # principal.calculate(user_inputs)
 #
 # locale.setlocale(locale.LC_ALL, 'en_US.UTF-8')
