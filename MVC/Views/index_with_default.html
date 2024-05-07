@@ -1,0 +1,20 @@
+<form method="post" action="/">
+    <label for="house_price">House price:</label><br>
+    <input type="text" id="house_price" name="house_price" value="{% if input_house_price %}{{ input_down_payment }}{% else %}1_000_000{% endif %}"><br>
+    <label for="down_payment">Down payment:</label><br>
+    <input type="text" id="down_payment" name="down_payment" value="{% if input_down_payment %}{{ input_down_payment }}{% else %}50_000{% endif %}"><br>
+    <label for="bond_price">Bond price:</label><br>
+    <input type="text" id="bond_price" name="bond_price" value="{% if input_bond_price %}{{ input_down_payment }}{% else %}95{% endif %}"><br>
+    <label for="dropdown">Select a bank:</label><br>
+    <select id="dropdown" name="dropdown">
+        {% for bank_name in dropdown_bank_names %}
+        <option value="{{ bank_name }}" {% if bank_name == selected_bank %} selected {% endif %}>{{ bank_name }}</option>
+        {% endfor %}
+    </select><br><br>
+    <input type="submit" value="Submit">
+    <br><br>
+    <label>Calculations</label>
+    <br><br>
+    <label>Principal: {{ principal_value }}</label><br>
+    <label>Capital Loss: {{ capital_loss }}</label><br>
+</form>

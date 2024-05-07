@@ -1,0 +1,44 @@
+<!--<form method="post" action="/">-->
+<!--    <label for="house_price">House price:</label><br>-->
+<!--    <input type="text" id="house_price" name="house_price" value="{{ input_house_price }}"><br>-->
+<!--    <label for="down_payment">Down payment:</label><br>-->
+<!--    <input type="text" id="down_payment" name="down_payment" value="{{ input_down_payment }}"><br>-->
+<!--    <label for="bond_price">Bond price:</label><br>-->
+<!--    <input type="text" id="bond_price" name="bond_price" value="{{ input_bond_price }}"><br>-->
+<!--    <label for="dropdown">Select a bank:</label><br>-->
+<!--    <select id="dropdown" name="dropdown">-->
+<!--        {% for bank_name in dropdown_bank_names %}-->
+<!--        <option value="{{ bank_name }}" {% if bank_name == selected_bank %} selected {% endif %}>{{ bank_name }}</option>-->
+<!--        {% endfor %}-->
+<!--    </select><br><br>-->
+<!--    <input type="submit" value="Submit">-->
+<!--    <br><br>-->
+<!--    <label>Calculations</label>-->
+<!--    <br><br>-->
+<!--    <label>Principal: {{ principal_value }}</label><br>-->
+<!--    <label>Capital Loss: {{ capital_loss }}</label><br>-->
+<!--</form>-->
+
+
+<form method="post" action="/">
+    <h3>Beregning af hovedstol for vilkårligt lån.</h3>
+<!--    <h6>Notits: benyt ikke 1000 tals seperator.</h6>-->
+    <label for="house_price">Boligens pris:</label><br>
+    <input type="text" id="house_price" name="house_price" value="{{ input_house_price }}"><br>
+    <label for="down_payment">Egen opsparing:</label><br>
+    <input type="text" id="down_payment" name="down_payment" value="{{ input_down_payment }}"><br>
+    <label for="bond_price">Kurs på lån:</label><br>
+    <input type="text" id="bond_price" name="bond_price" value="{{ input_bond_price }}"><br>
+    <label for="dropdown">Select a bank:</label><br>
+    <select id="dropdown" name="dropdown">
+        {% for bank_name in dropdown_bank_names %}
+        <option value="{{ bank_name }}" {% if bank_name == selected_bank %} selected {% endif %}>{{ bank_name }}</option>
+        {% endfor %}
+    </select><br><br>
+    <input type="submit" value="Beregn">
+<!--    <br><br>-->
+<!--    <label>Calculations</label>-->
+    <br><br>
+    <label>Hovedstol: {{ principal_value }}</label><br>
+    <label>Kurstab: {{ capital_loss }}</label><br>
+</form>
