@@ -33,7 +33,7 @@
           },
           "name": "the user inputs are \"0\", \"0\", \"1\", and \"A\"",
           "result": {
-            "duration": 0.0009987354278564453,
+            "duration": 0.0009999275207519531,
             "status": "passed"
           },
           "step_type": "given"
@@ -56,7 +56,7 @@
           },
           "name": "bank_fees equals \"0\" and bank_bond_fee equals \"0\"",
           "result": {
-            "duration": 0.0009996891021728516,
+            "duration": 0.0010001659393310547,
             "status": "passed"
           },
           "step_type": "given"
@@ -70,7 +70,7 @@
           },
           "name": "the user press the beregn button",
           "result": {
-            "duration": 0.001504659652709961,
+            "duration": 0.003519296646118164,
             "status": "passed"
           },
           "step_type": "when"
@@ -89,7 +89,7 @@
           },
           "name": "the principal amount is calculated and equals \"0\"",
           "result": {
-            "duration": 0.0010075569152832031,
+            "duration": 0.0,
             "status": "passed"
           },
           "step_type": "then"
@@ -132,7 +132,7 @@
           },
           "name": "the user inputs are \"0\", \"0\", \"1\", and \"A\"",
           "result": {
-            "duration": 0.0010018348693847656,
+            "duration": 0.00099945068359375,
             "status": "passed"
           },
           "step_type": "given"
@@ -155,7 +155,7 @@
           },
           "name": "bank_fees equals \"100\" and bank_bond_fee equals \"0\"",
           "result": {
-            "duration": 0.0,
+            "duration": 0.0009987354278564453,
             "status": "passed"
           },
           "step_type": "given"
@@ -169,7 +169,7 @@
           },
           "name": "the user press the beregn button",
           "result": {
-            "duration": 0.0029993057250976562,
+            "duration": 0.001999378204345703,
             "status": "passed"
           },
           "step_type": "when"
@@ -254,7 +254,7 @@
           },
           "name": "bank_fees equals \"100\" and bank_bond_fee equals \"0\"",
           "result": {
-            "duration": 0.0009984970092773438,
+            "duration": 0.0009975433349609375,
             "status": "passed"
           },
           "step_type": "given"
@@ -268,7 +268,7 @@
           },
           "name": "the user press the beregn button",
           "result": {
-            "duration": 0.001003265380859375,
+            "duration": 0.0015094280242919922,
             "status": "passed"
           },
           "step_type": "when"
@@ -287,7 +287,7 @@
           },
           "name": "the principal amount is calculated and equals \"200\"",
           "result": {
-            "duration": 0.0010001659393310547,
+            "duration": 0.0010099411010742188,
             "status": "passed"
           },
           "step_type": "then"
@@ -353,7 +353,7 @@
           },
           "name": "bank_fees equals \"0\" and bank_bond_fee equals \"0\"",
           "result": {
-            "duration": 0.0015146732330322266,
+            "duration": 0.0,
             "status": "passed"
           },
           "step_type": "given"
@@ -367,7 +367,7 @@
           },
           "name": "the user press the beregn button",
           "result": {
-            "duration": 0.0019986629486083984,
+            "duration": 0.0010006427764892578,
             "status": "passed"
           },
           "step_type": "when"
@@ -386,7 +386,7 @@
           },
           "name": "the principal amount is calculated and equals \"0\"",
           "result": {
-            "duration": 0.0,
+            "duration": 0.0010025501251220703,
             "status": "passed"
           },
           "step_type": "then"
@@ -429,7 +429,7 @@
           },
           "name": "the user inputs are \"100\", \"50\", \"1\", and \"A\"",
           "result": {
-            "duration": 0.0009999275207519531,
+            "duration": 0.0,
             "status": "passed"
           },
           "step_type": "given"
@@ -466,7 +466,7 @@
           },
           "name": "the user press the beregn button",
           "result": {
-            "duration": 0.0025022029876708984,
+            "duration": 0.0015306472778320312,
             "status": "passed"
           },
           "step_type": "when"
@@ -485,7 +485,7 @@
           },
           "name": "the principal amount is calculated and equals \"50\"",
           "result": {
-            "duration": 0.0010061264038085938,
+            "duration": 0.0,
             "status": "passed"
           },
           "step_type": "then"
@@ -528,7 +528,7 @@
           },
           "name": "the user inputs are \"100\", \"50\", \"0.25\", and \"A\"",
           "result": {
-            "duration": 0.0010004043579101562,
+            "duration": 0.0,
             "status": "passed"
           },
           "step_type": "given"
@@ -551,7 +551,7 @@
           },
           "name": "bank_fees equals \"0\" and bank_bond_fee equals \"0\"",
           "result": {
-            "duration": 0.000997304916381836,
+            "duration": 0.00101470947265625,
             "status": "passed"
           },
           "step_type": "given"
@@ -565,7 +565,7 @@
           },
           "name": "the user press the beregn button",
           "result": {
-            "duration": 0.003004789352416992,
+            "duration": 0.0019948482513427734,
             "status": "passed"
           },
           "step_type": "when"
@@ -584,7 +584,7 @@
           },
           "name": "the principal amount is calculated and equals \"200\"",
           "result": {
-            "duration": 0.0010004043579101562,
+            "duration": 0.0,
             "status": "passed"
           },
           "step_type": "then"
@@ -650,7 +650,7 @@
           },
           "name": "bank_fees equals \"20_000\" and bank_bond_fee equals \"0\"",
           "result": {
-            "duration": 0.0005097389221191406,
+            "duration": 0.0010056495666503906,
             "status": "passed"
           },
           "step_type": "given"
@@ -664,7 +664,7 @@
           },
           "name": "the user press the beregn button",
           "result": {
-            "duration": 0.0020210742950439453,
+            "duration": 0.0010008811950683594,
             "status": "passed"
           },
           "step_type": "when"
@@ -683,7 +683,7 @@
           },
           "name": "the principal amount is calculated and equals \"20_100\"",
           "result": {
-            "duration": 0.0,
+            "duration": 0.000997781753540039,
             "status": "passed"
           },
           "step_type": "then"
@@ -726,7 +726,7 @@
           },
           "name": "the user inputs are \"100\", \"0\", \"0.5\", and \"A\"",
           "result": {
-            "duration": 0.0010018348693847656,
+            "duration": 0.0,
             "status": "passed"
           },
           "step_type": "given"
@@ -749,7 +749,7 @@
           },
           "name": "bank_fees equals \"0\" and bank_bond_fee equals \"0\"",
           "result": {
-            "duration": 0.000997781753540039,
+            "duration": 0.0010144710540771484,
             "status": "passed"
           },
           "step_type": "given"
@@ -763,7 +763,7 @@
           },
           "name": "the user press the beregn button",
           "result": {
-            "duration": 0.0019996166229248047,
+            "duration": 0.001506805419921875,
             "status": "passed"
           },
           "step_type": "when"
@@ -825,7 +825,7 @@
           },
           "name": "the user inputs are \"100\", \"50\", \"2\", and \"A\"",
           "result": {
-            "duration": 0.0010118484497070312,
+            "duration": 0.0,
             "status": "passed"
           },
           "step_type": "given"
@@ -848,7 +848,7 @@
           },
           "name": "bank_fees equals \"100\" and bank_bond_fee equals \"0\"",
           "result": {
-            "duration": 0.0010004043579101562,
+            "duration": 0.0010008811950683594,
             "status": "passed"
           },
           "step_type": "given"
@@ -862,7 +862,7 @@
           },
           "name": "the user press the beregn button",
           "result": {
-            "duration": 0.001003265380859375,
+            "duration": 0.0019969940185546875,
             "status": "passed"
           },
           "step_type": "when"
@@ -881,7 +881,7 @@
           },
           "name": "the principal amount is calculated and equals \"75\"",
           "result": {
-            "duration": 0.0015158653259277344,
+            "duration": 0.0,
             "status": "passed"
           },
           "step_type": "then"
@@ -924,7 +924,7 @@
           },
           "name": "the user inputs are \"100\", \"0\", \"1.02\", and \"A\"",
           "result": {
-            "duration": 0.0010118484497070312,
+            "duration": 0.0,
             "status": "passed"
           },
           "step_type": "given"
@@ -947,7 +947,7 @@
           },
           "name": "bank_fees equals \"20_000\" and bank_bond_fee equals \"0.02\"",
           "result": {
-            "duration": 0.0010020732879638672,
+            "duration": 0.0009987354278564453,
             "status": "passed"
           },
           "step_type": "given"
@@ -961,7 +961,7 @@
           },
           "name": "the user press the beregn button",
           "result": {
-            "duration": 0.0009996891021728516,
+            "duration": 0.0016236305236816406,
             "status": "passed"
           },
           "step_type": "when"
@@ -1046,7 +1046,7 @@
           },
           "name": "bank_fees equals \"18_000\" and bank_bond_fee equals \"0.02\"",
           "result": {
-            "duration": 0.0015115737915039062,
+            "duration": 0.0015070438385009766,
             "status": "passed"
           },
           "step_type": "given"
@@ -1060,7 +1060,7 @@
           },
           "name": "the user press the beregn button",
           "result": {
-            "duration": 0.002010822296142578,
+            "duration": 0.0010094642639160156,
             "status": "passed"
           },
           "step_type": "when"

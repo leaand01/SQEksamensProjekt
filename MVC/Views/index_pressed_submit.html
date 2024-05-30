@@ -6,7 +6,7 @@
     <input type="text" id="down_payment" name="down_payment" value="{{ input_down_payment }}"><br>
     <label for="bond_price">Kurs på lån:</label><br>
     <input type="text" id="bond_price" name="bond_price" value="{{ input_bond_price }}"><br>
-    <label for="dropdown">Select a bank:</label><br>
+    <label for="dropdown">Vælg bank:</label><br>
     <select id="dropdown" name="dropdown">
         {% for bank_name in dropdown_bank_names %}
         <option value="{{ bank_name }}" {% if bank_name == selected_bank %} selected {% endif %}>{{ bank_name }}</option>
