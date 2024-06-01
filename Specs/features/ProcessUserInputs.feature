@@ -17,5 +17,3 @@ Feature: Validate ProcessUserInput with correct inputs Feature
       | 1           | 10.000.000   | 3          | A    | {'house_price': 1, 'down_payment': 10_000_000, 'bond_price': 0.03, 'dropdown': 'A'}     |
       | 1           | 1            | 200        | A    | {'house_price': 1, 'down_payment': 1, 'bond_price': 2, 'dropdown': 'A'}                 |
       | 1.000.000   | 50.000       | 95         | A    | {'house_price': 1_000_000, 'down_payment': 50_000, 'bond_price': 0.95, 'dropdown': 'A'} |
-
-# TODO: tilføje kommentar i htmll om anvendelse af komma og punktum

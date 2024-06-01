@@ -27,6 +27,6 @@ class TestCheckNoLetters(unittest.TestCase):
         ['1'],
         ['.'],
     ])
-    def test_check_no_letters_returns_null(self, input_string):
+    def test_check_no_letters_returns_none(self, input_string):
         actual_result = check_no_letters(input_string)
         self.assertIsNone(actual_result)

@@ -20,6 +20,6 @@ class TestCheckNotEmpty(unittest.TestCase):
         ['1'],
         ['a'],
     ])
-    def test_check_not_empty_return_null_if_nonempty_string(self, input_string):
+    def test_check_not_empty_return_none_if_nonempty_string(self, input_string):
         actual_result = check_not_empty(input_string)
         self.assertIsNone(actual_result)

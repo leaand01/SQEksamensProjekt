@@ -34,6 +34,6 @@ class TestAsNumericUsingDkPunctuation(unittest.TestCase):
         ['1,000.000.1', 1.000_000_1],
         ['1.000,000.1', 1_000.0001],
     ])
-    def test_as_numeric_using_dk_punctuation_ignores_doc_separators(self, input_string, expected_result):
+    def test_as_numeric_using_dk_punctuation_ignores_dot_separators(self, input_string, expected_result):
         actual_result = as_numeric_using_dk_punctuation(input_string)
         self.assertEqual(expected_result, actual_result)

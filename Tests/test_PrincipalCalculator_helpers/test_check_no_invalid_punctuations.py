@@ -51,6 +51,6 @@ class TestCheckNoInvalidPunctuations(unittest.TestCase):
         ['a'],
         ['1'],
     ])
-    def test_check_no_invalid_punctuations_return_null(self, input_string):
+    def test_check_no_invalid_punctuations_return_none(self, input_string):
         actual_result = check_no_invalid_punctuations(input_string)
         self.assertIsNone(actual_result)
