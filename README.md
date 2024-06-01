@@ -17,6 +17,10 @@ The website should now be running here: http://127.0.0.1:8000
 
 If you insert incorrect values detected by the testing framework, you can see a printed message in the terminal.
 
+<br>
+
+**Running tests**
+
 To run Unit test run the following command in the terminal: python run_tests.py
 
 To run the BDD test run the following command in the terminal: python run_specs_tests.py
