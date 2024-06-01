@@ -23,7 +23,7 @@ class ProcessUserInputs(IProcessor):
             check_not_negative(value)
 
             if key in ['house_price', 'down_payment']:
-                value = round(value)
+                value = round(value)  # round to nearest even int
 
             if key == 'bond_price':
                 check_is_greater_than_two(value)

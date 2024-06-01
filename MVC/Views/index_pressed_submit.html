@@ -1,11 +1,16 @@
 <form method="post" action="/">
     <h3>Beregning af hovedstol for vilkårligt lån.</h3>
     <label for="house_price">Boligens pris:</label><br>
-    <input type="text" id="house_price" name="house_price" value="{{ input_house_price }}"><br>
+    <input type="text" id="house_price" name="house_price" value="{{ input_house_price }}">
+    <span>(Benyt punktum som tusindtalsseparator)</span><br>
+
     <label for="down_payment">Egen opsparing:</label><br>
     <input type="text" id="down_payment" name="down_payment" value="{{ input_down_payment }}"><br>
+
     <label for="bond_price">Kurs på lån:</label><br>
-    <input type="text" id="bond_price" name="bond_price" value="{{ input_bond_price }}"><br>
+    <input type="text" id="bond_price" name="bond_price" value="{{ input_bond_price }}">
+    <span>(Benyt komma som decimalseparator)</span><br>
+
     <label for="dropdown">Vælg bank:</label><br>
     <select id="dropdown" name="dropdown">
         {% for bank_name in dropdown_bank_names %}

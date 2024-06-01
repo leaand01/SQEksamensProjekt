@@ -1,15 +1,20 @@
 [
 {
+  "description": [
+    "As a user",
+    "I want to be able to calculate the principal value",
+    "based on my inputs when pressing the Beregn-button"
+  ],
   "elements": [
     {
       "keyword": "Scenario Outline",
-      "location": "Specs/features/PrincipalCalculator.feature:12",
+      "location": "Specs/features/PrincipalCalculator.feature:15",
       "name": "Calculate principal amount -- @1.1 ",
       "status": "passed",
       "steps": [
         {
           "keyword": "Given",
-          "location": "Specs/features/PrincipalCalculator.feature:5",
+          "location": "Specs/features/PrincipalCalculator.feature:8",
           "match": {
             "arguments": [
               {
@@ -33,14 +38,14 @@
           },
           "name": "the user inputs are \"0\", \"0\", \"1\", and \"A\"",
           "result": {
-            "duration": 0.0009999275207519531,
+            "duration": 0.0015125274658203125,
             "status": "passed"
           },
           "step_type": "given"
         },
         {
           "keyword": "And",
-          "location": "Specs/features/PrincipalCalculator.feature:6",
+          "location": "Specs/features/PrincipalCalculator.feature:9",
           "match": {
             "arguments": [
               {
@@ -56,28 +61,28 @@
           },
           "name": "bank_fees equals \"0\" and bank_bond_fee equals \"0\"",
           "result": {
-            "duration": 0.0010001659393310547,
+            "duration": 0.0010120868682861328,
             "status": "passed"
           },
           "step_type": "given"
         },
         {
           "keyword": "When",
-          "location": "Specs/features/PrincipalCalculator.feature:7",
+          "location": "Specs/features/PrincipalCalculator.feature:10",
           "match": {
             "arguments": [],
             "location": "Specs/features/steps/PrincipalCalculator.py:25"
           },
           "name": "the user press the beregn button",
           "result": {
-            "duration": 0.003519296646118164,
+            "duration": 0.001997709274291992,
             "status": "passed"
           },
           "step_type": "when"
         },
         {
           "keyword": "Then",
-          "location": "Specs/features/PrincipalCalculator.feature:8",
+          "location": "Specs/features/PrincipalCalculator.feature:11",
           "match": {
             "arguments": [
               {
@@ -102,13 +107,13 @@
     },
     {
       "keyword": "Scenario Outline",
-      "location": "Specs/features/PrincipalCalculator.feature:13",
+      "location": "Specs/features/PrincipalCalculator.feature:16",
       "name": "Calculate principal amount -- @1.2 ",
       "status": "passed",
       "steps": [
         {
           "keyword": "Given",
-          "location": "Specs/features/PrincipalCalculator.feature:5",
+          "location": "Specs/features/PrincipalCalculator.feature:8",
           "match": {
             "arguments": [
               {
@@ -132,14 +137,14 @@
           },
           "name": "the user inputs are \"0\", \"0\", \"1\", and \"A\"",
           "result": {
-            "duration": 0.00099945068359375,
+            "duration": 0.0,
             "status": "passed"
           },
           "step_type": "given"
         },
         {
           "keyword": "And",
-          "location": "Specs/features/PrincipalCalculator.feature:6",
+          "location": "Specs/features/PrincipalCalculator.feature:9",
           "match": {
             "arguments": [
               {
@@ -155,28 +160,28 @@
           },
           "name": "bank_fees equals \"100\" and bank_bond_fee equals \"0\"",
           "result": {
-            "duration": 0.0009987354278564453,
+            "duration": 0.0010004043579101562,
             "status": "passed"
           },
           "step_type": "given"
         },
         {
           "keyword": "When",
-          "location": "Specs/features/PrincipalCalculator.feature:7",
+          "location": "Specs/features/PrincipalCalculator.feature:10",
           "match": {
             "arguments": [],
             "location": "Specs/features/steps/PrincipalCalculator.py:25"
           },
           "name": "the user press the beregn button",
           "result": {
-            "duration": 0.001999378204345703,
+            "duration": 0.0020003318786621094,
             "status": "passed"
           },
           "step_type": "when"
         },
         {
           "keyword": "Then",
-          "location": "Specs/features/PrincipalCalculator.feature:8",
+          "location": "Specs/features/PrincipalCalculator.feature:11",
           "match": {
             "arguments": [
               {
@@ -201,13 +206,13 @@
     },
     {
       "keyword": "Scenario Outline",
-      "location": "Specs/features/PrincipalCalculator.feature:14",
+      "location": "Specs/features/PrincipalCalculator.feature:17",
       "name": "Calculate principal amount -- @1.3 ",
       "status": "passed",
       "steps": [
         {
           "keyword": "Given",
-          "location": "Specs/features/PrincipalCalculator.feature:5",
+          "location": "Specs/features/PrincipalCalculator.feature:8",
           "match": {
             "arguments": [
               {
@@ -238,7 +243,7 @@
         },
         {
           "keyword": "And",
-          "location": "Specs/features/PrincipalCalculator.feature:6",
+          "location": "Specs/features/PrincipalCalculator.feature:9",
           "match": {
             "arguments": [
               {
@@ -254,28 +259,28 @@
           },
           "name": "bank_fees equals \"100\" and bank_bond_fee equals \"0\"",
           "result": {
-            "duration": 0.0009975433349609375,
+            "duration": 0.0010008811950683594,
             "status": "passed"
           },
           "step_type": "given"
         },
         {
           "keyword": "When",
-          "location": "Specs/features/PrincipalCalculator.feature:7",
+          "location": "Specs/features/PrincipalCalculator.feature:10",
           "match": {
             "arguments": [],
             "location": "Specs/features/steps/PrincipalCalculator.py:25"
           },
           "name": "the user press the beregn button",
           "result": {
-            "duration": 0.0015094280242919922,
+            "duration": 0.0015048980712890625,
             "status": "passed"
           },
           "step_type": "when"
         },
         {
           "keyword": "Then",
-          "location": "Specs/features/PrincipalCalculator.feature:8",
+          "location": "Specs/features/PrincipalCalculator.feature:11",
           "match": {
             "arguments": [
               {
@@ -287,7 +292,7 @@
           },
           "name": "the principal amount is calculated and equals \"200\"",
           "result": {
-            "duration": 0.0010099411010742188,
+            "duration": 0.001009225845336914,
             "status": "passed"
           },
           "step_type": "then"
@@ -300,121 +305,22 @@
     },
     {
       "keyword": "Scenario Outline",
-      "location": "Specs/features/PrincipalCalculator.feature:15",
+      "location": "Specs/features/PrincipalCalculator.feature:18",
       "name": "Calculate principal amount -- @1.4 ",
       "status": "passed",
       "steps": [
         {
           "keyword": "Given",
-          "location": "Specs/features/PrincipalCalculator.feature:5",
-          "match": {
-            "arguments": [
-              {
-                "name": "house_price",
-                "value": "0"
-              },
-              {
-                "name": "down_payment",
-                "value": "0"
-              },
-              {
-                "name": "bond_price",
-                "value": "0.021"
-              },
-              {
-                "name": "bank",
-                "value": "A"
-              }
-            ],
-            "location": "Specs/features/steps/PrincipalCalculator.py:8"
-          },
-          "name": "the user inputs are \"0\", \"0\", \"0.021\", and \"A\"",
-          "result": {
-            "duration": 0.000997304916381836,
-            "status": "passed"
-          },
-          "step_type": "given"
-        },
-        {
-          "keyword": "And",
-          "location": "Specs/features/PrincipalCalculator.feature:6",
-          "match": {
-            "arguments": [
-              {
-                "name": "bank_fees",
-                "value": "0"
-              },
-              {
-                "name": "bank_bond_fee",
-                "value": "0"
-              }
-            ],
-            "location": "Specs/features/steps/PrincipalCalculator.py:18"
-          },
-          "name": "bank_fees equals \"0\" and bank_bond_fee equals \"0\"",
-          "result": {
-            "duration": 0.0,
-            "status": "passed"
-          },
-          "step_type": "given"
-        },
-        {
-          "keyword": "When",
-          "location": "Specs/features/PrincipalCalculator.feature:7",
-          "match": {
-            "arguments": [],
-            "location": "Specs/features/steps/PrincipalCalculator.py:25"
-          },
-          "name": "the user press the beregn button",
-          "result": {
-            "duration": 0.0010006427764892578,
-            "status": "passed"
-          },
-          "step_type": "when"
-        },
-        {
-          "keyword": "Then",
           "location": "Specs/features/PrincipalCalculator.feature:8",
           "match": {
             "arguments": [
               {
-                "name": "expected_principal",
-                "value": "0"
-              }
-            ],
-            "location": "Specs/features/steps/PrincipalCalculator.py:37"
-          },
-          "name": "the principal amount is calculated and equals \"0\"",
-          "result": {
-            "duration": 0.0010025501251220703,
-            "status": "passed"
-          },
-          "step_type": "then"
-        }
-      ],
-      "tags": [
-        "mock_principal"
-      ],
-      "type": "scenario"
-    },
-    {
-      "keyword": "Scenario Outline",
-      "location": "Specs/features/PrincipalCalculator.feature:16",
-      "name": "Calculate principal amount -- @1.5 ",
-      "status": "passed",
-      "steps": [
-        {
-          "keyword": "Given",
-          "location": "Specs/features/PrincipalCalculator.feature:5",
-          "match": {
-            "arguments": [
-              {
                 "name": "house_price",
-                "value": "100"
+                "value": "0"
               },
               {
                 "name": "down_payment",
-                "value": "50"
+                "value": "0"
               },
               {
                 "name": "bond_price",
@@ -427,7 +333,106 @@
             ],
             "location": "Specs/features/steps/PrincipalCalculator.py:8"
           },
-          "name": "the user inputs are \"100\", \"50\", \"1\", and \"A\"",
+          "name": "the user inputs are \"0\", \"0\", \"1\", and \"A\"",
+          "result": {
+            "duration": 0.000995635986328125,
+            "status": "passed"
+          },
+          "step_type": "given"
+        },
+        {
+          "keyword": "And",
+          "location": "Specs/features/PrincipalCalculator.feature:9",
+          "match": {
+            "arguments": [
+              {
+                "name": "bank_fees",
+                "value": "100"
+              },
+              {
+                "name": "bank_bond_fee",
+                "value": "0.5"
+              }
+            ],
+            "location": "Specs/features/steps/PrincipalCalculator.py:18"
+          },
+          "name": "bank_fees equals \"100\" and bank_bond_fee equals \"0.5\"",
+          "result": {
+            "duration": 0.0,
+            "status": "passed"
+          },
+          "step_type": "given"
+        },
+        {
+          "keyword": "When",
+          "location": "Specs/features/PrincipalCalculator.feature:10",
+          "match": {
+            "arguments": [],
+            "location": "Specs/features/steps/PrincipalCalculator.py:25"
+          },
+          "name": "the user press the beregn button",
+          "result": {
+            "duration": 0.0020003318786621094,
+            "status": "passed"
+          },
+          "step_type": "when"
+        },
+        {
+          "keyword": "Then",
+          "location": "Specs/features/PrincipalCalculator.feature:11",
+          "match": {
+            "arguments": [
+              {
+                "name": "expected_principal",
+                "value": "200"
+              }
+            ],
+            "location": "Specs/features/steps/PrincipalCalculator.py:37"
+          },
+          "name": "the principal amount is calculated and equals \"200\"",
+          "result": {
+            "duration": 0.0,
+            "status": "passed"
+          },
+          "step_type": "then"
+        }
+      ],
+      "tags": [
+        "mock_principal"
+      ],
+      "type": "scenario"
+    },
+    {
+      "keyword": "Scenario Outline",
+      "location": "Specs/features/PrincipalCalculator.feature:19",
+      "name": "Calculate principal amount -- @1.5 ",
+      "status": "passed",
+      "steps": [
+        {
+          "keyword": "Given",
+          "location": "Specs/features/PrincipalCalculator.feature:8",
+          "match": {
+            "arguments": [
+              {
+                "name": "house_price",
+                "value": "100"
+              },
+              {
+                "name": "down_payment",
+                "value": "0"
+              },
+              {
+                "name": "bond_price",
+                "value": "0.25"
+              },
+              {
+                "name": "bank",
+                "value": "A"
+              }
+            ],
+            "location": "Specs/features/steps/PrincipalCalculator.py:8"
+          },
+          "name": "the user inputs are \"100\", \"0\", \"0.25\", and \"A\"",
           "result": {
             "duration": 0.0,
             "status": "passed"
@@ -436,7 +441,7 @@
         },
         {
           "keyword": "And",
-          "location": "Specs/features/PrincipalCalculator.feature:6",
+          "location": "Specs/features/PrincipalCalculator.feature:9",
           "match": {
             "arguments": [
               {
@@ -452,38 +457,38 @@
           },
           "name": "bank_fees equals \"0\" and bank_bond_fee equals \"0\"",
           "result": {
-            "duration": 0.0010023117065429688,
+            "duration": 0.001010894775390625,
             "status": "passed"
           },
           "step_type": "given"
         },
         {
           "keyword": "When",
-          "location": "Specs/features/PrincipalCalculator.feature:7",
+          "location": "Specs/features/PrincipalCalculator.feature:10",
           "match": {
             "arguments": [],
             "location": "Specs/features/steps/PrincipalCalculator.py:25"
           },
           "name": "the user press the beregn button",
           "result": {
-            "duration": 0.0015306472778320312,
+            "duration": 0.001996278762817383,
             "status": "passed"
           },
           "step_type": "when"
         },
         {
           "keyword": "Then",
-          "location": "Specs/features/PrincipalCalculator.feature:8",
+          "location": "Specs/features/PrincipalCalculator.feature:11",
           "match": {
             "arguments": [
               {
                 "name": "expected_principal",
-                "value": "50"
+                "value": "400"
               }
             ],
             "location": "Specs/features/steps/PrincipalCalculator.py:37"
           },
-          "name": "the principal amount is calculated and equals \"50\"",
+          "name": "the principal amount is calculated and equals \"400\"",
           "result": {
             "duration": 0.0,
             "status": "passed"
@@ -498,13 +503,211 @@
     },
     {
       "keyword": "Scenario Outline",
-      "location": "Specs/features/PrincipalCalculator.feature:17",
+      "location": "Specs/features/PrincipalCalculator.feature:20",
       "name": "Calculate principal amount -- @1.6 ",
       "status": "passed",
       "steps": [
         {
           "keyword": "Given",
-          "location": "Specs/features/PrincipalCalculator.feature:5",
+          "location": "Specs/features/PrincipalCalculator.feature:8",
+          "match": {
+            "arguments": [
+              {
+                "name": "house_price",
+                "value": "100"
+              },
+              {
+                "name": "down_payment",
+                "value": "0"
+              },
+              {
+                "name": "bond_price",
+                "value": "0.25"
+              },
+              {
+                "name": "bank",
+                "value": "A"
+              }
+            ],
+            "location": "Specs/features/steps/PrincipalCalculator.py:8"
+          },
+          "name": "the user inputs are \"100\", \"0\", \"0.25\", and \"A\"",
+          "result": {
+            "duration": 0.0005104541778564453,
+            "status": "passed"
+          },
+          "step_type": "given"
+        },
+        {
+          "keyword": "And",
+          "location": "Specs/features/PrincipalCalculator.feature:9",
+          "match": {
+            "arguments": [
+              {
+                "name": "bank_fees",
+                "value": "100"
+              },
+              {
+                "name": "bank_bond_fee",
+                "value": "0"
+              }
+            ],
+            "location": "Specs/features/steps/PrincipalCalculator.py:18"
+          },
+          "name": "bank_fees equals \"100\" and bank_bond_fee equals \"0\"",
+          "result": {
+            "duration": 0.0,
+            "status": "passed"
+          },
+          "step_type": "given"
+        },
+        {
+          "keyword": "When",
+          "location": "Specs/features/PrincipalCalculator.feature:10",
+          "match": {
+            "arguments": [],
+            "location": "Specs/features/steps/PrincipalCalculator.py:25"
+          },
+          "name": "the user press the beregn button",
+          "result": {
+            "duration": 0.0030057430267333984,
+            "status": "passed"
+          },
+          "step_type": "when"
+        },
+        {
+          "keyword": "Then",
+          "location": "Specs/features/PrincipalCalculator.feature:11",
+          "match": {
+            "arguments": [
+              {
+                "name": "expected_principal",
+                "value": "800"
+              }
+            ],
+            "location": "Specs/features/steps/PrincipalCalculator.py:37"
+          },
+          "name": "the principal amount is calculated and equals \"800\"",
+          "result": {
+            "duration": 0.0,
+            "status": "passed"
+          },
+          "step_type": "then"
+        }
+      ],
+      "tags": [
+        "mock_principal"
+      ],
+      "type": "scenario"
+    },
+    {
+      "keyword": "Scenario Outline",
+      "location": "Specs/features/PrincipalCalculator.feature:21",
+      "name": "Calculate principal amount -- @1.7 ",
+      "status": "passed",
+      "steps": [
+        {
+          "keyword": "Given",
+          "location": "Specs/features/PrincipalCalculator.feature:8",
+          "match": {
+            "arguments": [
+              {
+                "name": "house_price",
+                "value": "100"
+              },
+              {
+                "name": "down_payment",
+                "value": "0"
+              },
+              {
+                "name": "bond_price",
+                "value": "0.25"
+              },
+              {
+                "name": "bank",
+                "value": "A"
+              }
+            ],
+            "location": "Specs/features/steps/PrincipalCalculator.py:8"
+          },
+          "name": "the user inputs are \"100\", \"0\", \"0.25\", and \"A\"",
+          "result": {
+            "duration": 0.0,
+            "status": "passed"
+          },
+          "step_type": "given"
+        },
+        {
+          "keyword": "And",
+          "location": "Specs/features/PrincipalCalculator.feature:9",
+          "match": {
+            "arguments": [
+              {
+                "name": "bank_fees",
+                "value": "100"
+              },
+              {
+                "name": "bank_bond_fee",
+                "value": "0.05"
+              }
+            ],
+            "location": "Specs/features/steps/PrincipalCalculator.py:18"
+          },
+          "name": "bank_fees equals \"100\" and bank_bond_fee equals \"0.05\"",
+          "result": {
+            "duration": 0.0015065670013427734,
+            "status": "passed"
+          },
+          "step_type": "given"
+        },
+        {
+          "keyword": "When",
+          "location": "Specs/features/PrincipalCalculator.feature:10",
+          "match": {
+            "arguments": [],
+            "location": "Specs/features/steps/PrincipalCalculator.py:25"
+          },
+          "name": "the user press the beregn button",
+          "result": {
+            "duration": 0.0010068416595458984,
+            "status": "passed"
+          },
+          "step_type": "when"
+        },
+        {
+          "keyword": "Then",
+          "location": "Specs/features/PrincipalCalculator.feature:11",
+          "match": {
+            "arguments": [
+              {
+                "name": "expected_principal",
+                "value": "1000"
+              }
+            ],
+            "location": "Specs/features/steps/PrincipalCalculator.py:37"
+          },
+          "name": "the principal amount is calculated and equals \"1000\"",
+          "result": {
+            "duration": 0.0,
+            "status": "passed"
+          },
+          "step_type": "then"
+        }
+      ],
+      "tags": [
+        "mock_principal"
+      ],
+      "type": "scenario"
+    },
+    {
+      "keyword": "Scenario Outline",
+      "location": "Specs/features/PrincipalCalculator.feature:22",
+      "name": "Calculate principal amount -- @1.8 ",
+      "status": "passed",
+      "steps": [
+        {
+          "keyword": "Given",
+          "location": "Specs/features/PrincipalCalculator.feature:8",
           "match": {
             "arguments": [
               {
@@ -535,7 +738,7 @@
         },
         {
           "keyword": "And",
-          "location": "Specs/features/PrincipalCalculator.feature:6",
+          "location": "Specs/features/PrincipalCalculator.feature:9",
           "match": {
             "arguments": [
               {
@@ -551,28 +754,28 @@
           },
           "name": "bank_fees equals \"0\" and bank_bond_fee equals \"0\"",
           "result": {
-            "duration": 0.00101470947265625,
+            "duration": 0.0015087127685546875,
             "status": "passed"
           },
           "step_type": "given"
         },
         {
           "keyword": "When",
-          "location": "Specs/features/PrincipalCalculator.feature:7",
+          "location": "Specs/features/PrincipalCalculator.feature:10",
           "match": {
             "arguments": [],
             "location": "Specs/features/steps/PrincipalCalculator.py:25"
           },
           "name": "the user press the beregn button",
           "result": {
-            "duration": 0.0019948482513427734,
+            "duration": 0.0020072460174560547,
             "status": "passed"
           },
           "step_type": "when"
         },
         {
           "keyword": "Then",
-          "location": "Specs/features/PrincipalCalculator.feature:8",
+          "location": "Specs/features/PrincipalCalculator.feature:11",
           "match": {
             "arguments": [
               {
@@ -597,211 +800,13 @@
     },
     {
       "keyword": "Scenario Outline",
-      "location": "Specs/features/PrincipalCalculator.feature:18",
-      "name": "Calculate principal amount -- @1.7 ",
-      "status": "passed",
-      "steps": [
-        {
-          "keyword": "Given",
-          "location": "Specs/features/PrincipalCalculator.feature:5",
-          "match": {
-            "arguments": [
-              {
-                "name": "house_price",
-                "value": "100"
-              },
-              {
-                "name": "down_payment",
-                "value": "0"
-              },
-              {
-                "name": "bond_price",
-                "value": "1"
-              },
-              {
-                "name": "bank",
-                "value": "A"
-              }
-            ],
-            "location": "Specs/features/steps/PrincipalCalculator.py:8"
-          },
-          "name": "the user inputs are \"100\", \"0\", \"1\", and \"A\"",
-          "result": {
-            "duration": 0.0,
-            "status": "passed"
-          },
-          "step_type": "given"
-        },
-        {
-          "keyword": "And",
-          "location": "Specs/features/PrincipalCalculator.feature:6",
-          "match": {
-            "arguments": [
-              {
-                "name": "bank_fees",
-                "value": "20_000"
-              },
-              {
-                "name": "bank_bond_fee",
-                "value": "0"
-              }
-            ],
-            "location": "Specs/features/steps/PrincipalCalculator.py:18"
-          },
-          "name": "bank_fees equals \"20_000\" and bank_bond_fee equals \"0\"",
-          "result": {
-            "duration": 0.0010056495666503906,
-            "status": "passed"
-          },
-          "step_type": "given"
-        },
-        {
-          "keyword": "When",
-          "location": "Specs/features/PrincipalCalculator.feature:7",
-          "match": {
-            "arguments": [],
-            "location": "Specs/features/steps/PrincipalCalculator.py:25"
-          },
-          "name": "the user press the beregn button",
-          "result": {
-            "duration": 0.0010008811950683594,
-            "status": "passed"
-          },
-          "step_type": "when"
-        },
-        {
-          "keyword": "Then",
-          "location": "Specs/features/PrincipalCalculator.feature:8",
-          "match": {
-            "arguments": [
-              {
-                "name": "expected_principal",
-                "value": "20_100"
-              }
-            ],
-            "location": "Specs/features/steps/PrincipalCalculator.py:37"
-          },
-          "name": "the principal amount is calculated and equals \"20_100\"",
-          "result": {
-            "duration": 0.000997781753540039,
-            "status": "passed"
-          },
-          "step_type": "then"
-        }
-      ],
-      "tags": [
-        "mock_principal"
-      ],
-      "type": "scenario"
-    },
-    {
-      "keyword": "Scenario Outline",
-      "location": "Specs/features/PrincipalCalculator.feature:19",
-      "name": "Calculate principal amount -- @1.8 ",
-      "status": "passed",
-      "steps": [
-        {
-          "keyword": "Given",
-          "location": "Specs/features/PrincipalCalculator.feature:5",
-          "match": {
-            "arguments": [
-              {
-                "name": "house_price",
-                "value": "100"
-              },
-              {
-                "name": "down_payment",
-                "value": "0"
-              },
-              {
-                "name": "bond_price",
-                "value": "0.5"
-              },
-              {
-                "name": "bank",
-                "value": "A"
-              }
-            ],
-            "location": "Specs/features/steps/PrincipalCalculator.py:8"
-          },
-          "name": "the user inputs are \"100\", \"0\", \"0.5\", and \"A\"",
-          "result": {
-            "duration": 0.0,
-            "status": "passed"
-          },
-          "step_type": "given"
-        },
-        {
-          "keyword": "And",
-          "location": "Specs/features/PrincipalCalculator.feature:6",
-          "match": {
-            "arguments": [
-              {
-                "name": "bank_fees",
-                "value": "0"
-              },
-              {
-                "name": "bank_bond_fee",
-                "value": "0"
-              }
-            ],
-            "location": "Specs/features/steps/PrincipalCalculator.py:18"
-          },
-          "name": "bank_fees equals \"0\" and bank_bond_fee equals \"0\"",
-          "result": {
-            "duration": 0.0010144710540771484,
-            "status": "passed"
-          },
-          "step_type": "given"
-        },
-        {
-          "keyword": "When",
-          "location": "Specs/features/PrincipalCalculator.feature:7",
-          "match": {
-            "arguments": [],
-            "location": "Specs/features/steps/PrincipalCalculator.py:25"
-          },
-          "name": "the user press the beregn button",
-          "result": {
-            "duration": 0.001506805419921875,
-            "status": "passed"
-          },
-          "step_type": "when"
-        },
-        {
-          "keyword": "Then",
-          "location": "Specs/features/PrincipalCalculator.feature:8",
-          "match": {
-            "arguments": [
-              {
-                "name": "expected_principal",
-                "value": "200"
-              }
-            ],
-            "location": "Specs/features/steps/PrincipalCalculator.py:37"
-          },
-          "name": "the principal amount is calculated and equals \"200\"",
-          "result": {
-            "duration": 0.0,
-            "status": "passed"
-          },
-          "step_type": "then"
-        }
-      ],
-      "tags": [
-        "mock_principal"
-      ],
-      "type": "scenario"
-    },
-    {
-      "keyword": "Scenario Outline",
-      "location": "Specs/features/PrincipalCalculator.feature:20",
+      "location": "Specs/features/PrincipalCalculator.feature:23",
       "name": "Calculate principal amount -- @1.9 ",
       "status": "passed",
       "steps": [
         {
           "keyword": "Given",
-          "location": "Specs/features/PrincipalCalculator.feature:5",
+          "location": "Specs/features/PrincipalCalculator.feature:8",
           "match": {
             "arguments": [
               {
@@ -814,7 +819,7 @@
               },
               {
                 "name": "bond_price",
-                "value": "2"
+                "value": "0.25"
               },
               {
                 "name": "bank",
@@ -823,16 +828,16 @@
             ],
             "location": "Specs/features/steps/PrincipalCalculator.py:8"
           },
-          "name": "the user inputs are \"100\", \"50\", \"2\", and \"A\"",
+          "name": "the user inputs are \"100\", \"50\", \"0.25\", and \"A\"",
           "result": {
-            "duration": 0.0,
+            "duration": 0.0009999275207519531,
             "status": "passed"
           },
           "step_type": "given"
         },
         {
           "keyword": "And",
-          "location": "Specs/features/PrincipalCalculator.feature:6",
+          "location": "Specs/features/PrincipalCalculator.feature:9",
           "match": {
             "arguments": [
               {
@@ -848,40 +853,40 @@
           },
           "name": "bank_fees equals \"100\" and bank_bond_fee equals \"0\"",
           "result": {
-            "duration": 0.0010008811950683594,
+            "duration": 0.0,
             "status": "passed"
           },
           "step_type": "given"
         },
         {
           "keyword": "When",
-          "location": "Specs/features/PrincipalCalculator.feature:7",
+          "location": "Specs/features/PrincipalCalculator.feature:10",
           "match": {
             "arguments": [],
             "location": "Specs/features/steps/PrincipalCalculator.py:25"
           },
           "name": "the user press the beregn button",
           "result": {
-            "duration": 0.0019969940185546875,
+            "duration": 0.0010013580322265625,
             "status": "passed"
           },
           "step_type": "when"
         },
         {
           "keyword": "Then",
-          "location": "Specs/features/PrincipalCalculator.feature:8",
+          "location": "Specs/features/PrincipalCalculator.feature:11",
           "match": {
             "arguments": [
               {
                 "name": "expected_principal",
-                "value": "75"
+                "value": "600"
               }
             ],
             "location": "Specs/features/steps/PrincipalCalculator.py:37"
           },
-          "name": "the principal amount is calculated and equals \"75\"",
+          "name": "the principal amount is calculated and equals \"600\"",
           "result": {
-            "duration": 0.0,
+            "duration": 0.001506805419921875,
             "status": "passed"
           },
           "step_type": "then"
@@ -894,18 +899,117 @@
     },
     {
       "keyword": "Scenario Outline",
-      "location": "Specs/features/PrincipalCalculator.feature:21",
+      "location": "Specs/features/PrincipalCalculator.feature:24",
       "name": "Calculate principal amount -- @1.10 ",
       "status": "passed",
       "steps": [
         {
           "keyword": "Given",
-          "location": "Specs/features/PrincipalCalculator.feature:5",
+          "location": "Specs/features/PrincipalCalculator.feature:8",
           "match": {
             "arguments": [
               {
                 "name": "house_price",
                 "value": "100"
+              },
+              {
+                "name": "down_payment",
+                "value": "50"
+              },
+              {
+                "name": "bond_price",
+                "value": "0.25"
+              },
+              {
+                "name": "bank",
+                "value": "A"
+              }
+            ],
+            "location": "Specs/features/steps/PrincipalCalculator.py:8"
+          },
+          "name": "the user inputs are \"100\", \"50\", \"0.25\", and \"A\"",
+          "result": {
+            "duration": 0.0009279251098632812,
+            "status": "passed"
+          },
+          "step_type": "given"
+        },
+        {
+          "keyword": "And",
+          "location": "Specs/features/PrincipalCalculator.feature:9",
+          "match": {
+            "arguments": [
+              {
+                "name": "bank_fees",
+                "value": "100"
+              },
+              {
+                "name": "bank_bond_fee",
+                "value": "0.05"
+              }
+            ],
+            "location": "Specs/features/steps/PrincipalCalculator.py:18"
+          },
+          "name": "bank_fees equals \"100\" and bank_bond_fee equals \"0.05\"",
+          "result": {
+            "duration": 0.0,
+            "status": "passed"
+          },
+          "step_type": "given"
+        },
+        {
+          "keyword": "When",
+          "location": "Specs/features/PrincipalCalculator.feature:10",
+          "match": {
+            "arguments": [],
+            "location": "Specs/features/steps/PrincipalCalculator.py:25"
+          },
+          "name": "the user press the beregn button",
+          "result": {
+            "duration": 0.0009975433349609375,
+            "status": "passed"
+          },
+          "step_type": "when"
+        },
+        {
+          "keyword": "Then",
+          "location": "Specs/features/PrincipalCalculator.feature:11",
+          "match": {
+            "arguments": [
+              {
+                "name": "expected_principal",
+                "value": "750"
+              }
+            ],
+            "location": "Specs/features/steps/PrincipalCalculator.py:37"
+          },
+          "name": "the principal amount is calculated and equals \"750\"",
+          "result": {
+            "duration": 0.0015079975128173828,
+            "status": "passed"
+          },
+          "step_type": "then"
+        }
+      ],
+      "tags": [
+        "mock_principal"
+      ],
+      "type": "scenario"
+    },
+    {
+      "keyword": "Scenario Outline",
+      "location": "Specs/features/PrincipalCalculator.feature:25",
+      "name": "Calculate principal amount -- @1.11 ",
+      "status": "passed",
+      "steps": [
+        {
+          "keyword": "Given",
+          "location": "Specs/features/PrincipalCalculator.feature:8",
+          "match": {
+            "arguments": [
+              {
+                "name": "house_price",
+                "value": "0"
               },
               {
                 "name": "down_payment",
@@ -922,7 +1026,7 @@
             ],
             "location": "Specs/features/steps/PrincipalCalculator.py:8"
           },
-          "name": "the user inputs are \"100\", \"0\", \"1.02\", and \"A\"",
+          "name": "the user inputs are \"0\", \"0\", \"1.02\", and \"A\"",
           "result": {
             "duration": 0.0,
             "status": "passed"
@@ -931,7 +1035,7 @@
         },
         {
           "keyword": "And",
-          "location": "Specs/features/PrincipalCalculator.feature:6",
+          "location": "Specs/features/PrincipalCalculator.feature:9",
           "match": {
             "arguments": [
               {
@@ -947,38 +1051,38 @@
           },
           "name": "bank_fees equals \"20_000\" and bank_bond_fee equals \"0.02\"",
           "result": {
-            "duration": 0.0009987354278564453,
+            "duration": 0.0,
             "status": "passed"
           },
           "step_type": "given"
         },
         {
           "keyword": "When",
-          "location": "Specs/features/PrincipalCalculator.feature:7",
+          "location": "Specs/features/PrincipalCalculator.feature:10",
           "match": {
             "arguments": [],
             "location": "Specs/features/steps/PrincipalCalculator.py:25"
           },
           "name": "the user press the beregn button",
           "result": {
-            "duration": 0.0016236305236816406,
+            "duration": 0.0010077953338623047,
             "status": "passed"
           },
           "step_type": "when"
         },
         {
           "keyword": "Then",
-          "location": "Specs/features/PrincipalCalculator.feature:8",
+          "location": "Specs/features/PrincipalCalculator.feature:11",
           "match": {
             "arguments": [
               {
                 "name": "expected_principal",
-                "value": "20_100"
+                "value": "20_000"
               }
             ],
             "location": "Specs/features/steps/PrincipalCalculator.py:37"
           },
-          "name": "the principal amount is calculated and equals \"20_100\"",
+          "name": "the principal amount is calculated and equals \"20_000\"",
           "result": {
             "duration": 0.0,
             "status": "passed"
@@ -993,22 +1097,22 @@
     },
     {
       "keyword": "Scenario Outline",
-      "location": "Specs/features/PrincipalCalculator.feature:22",
-      "name": "Calculate principal amount -- @1.11 ",
+      "location": "Specs/features/PrincipalCalculator.feature:26",
+      "name": "Calculate principal amount -- @1.12 ",
       "status": "passed",
       "steps": [
         {
           "keyword": "Given",
-          "location": "Specs/features/PrincipalCalculator.feature:5",
+          "location": "Specs/features/PrincipalCalculator.feature:8",
           "match": {
             "arguments": [
               {
                 "name": "house_price",
-                "value": "100"
+                "value": "200"
               },
               {
                 "name": "down_payment",
-                "value": "0"
+                "value": "100"
               },
               {
                 "name": "bond_price",
@@ -1021,16 +1125,16 @@
             ],
             "location": "Specs/features/steps/PrincipalCalculator.py:8"
           },
-          "name": "the user inputs are \"100\", \"0\", \"1.02\", and \"A\"",
+          "name": "the user inputs are \"200\", \"100\", \"1.02\", and \"A\"",
           "result": {
-            "duration": 0.0,
+            "duration": 0.0009999275207519531,
             "status": "passed"
           },
           "step_type": "given"
         },
         {
           "keyword": "And",
-          "location": "Specs/features/PrincipalCalculator.feature:6",
+          "location": "Specs/features/PrincipalCalculator.feature:9",
           "match": {
             "arguments": [
               {
@@ -1046,28 +1150,28 @@
           },
           "name": "bank_fees equals \"18_000\" and bank_bond_fee equals \"0.02\"",
           "result": {
-            "duration": 0.0015070438385009766,
+            "duration": 0.0,
             "status": "passed"
           },
           "step_type": "given"
         },
         {
           "keyword": "When",
-          "location": "Specs/features/PrincipalCalculator.feature:7",
+          "location": "Specs/features/PrincipalCalculator.feature:10",
           "match": {
             "arguments": [],
             "location": "Specs/features/steps/PrincipalCalculator.py:25"
           },
           "name": "the user press the beregn button",
           "result": {
-            "duration": 0.0010094642639160156,
+            "duration": 0.0020008087158203125,
             "status": "passed"
           },
           "step_type": "when"
         },
         {
           "keyword": "Then",
-          "location": "Specs/features/PrincipalCalculator.feature:8",
+          "location": "Specs/features/PrincipalCalculator.feature:11",
           "match": {
             "arguments": [
               {
@@ -1094,6 +1198,1702 @@
   "keyword": "Feature",
   "location": "Specs/features/PrincipalCalculator.feature:1",
   "name": "Principal Calculation Feature",
+  "status": "passed",
+  "tags": []
+},
+
+{
+  "description": [
+    "If my user inputs are valid",
+    "I want the processor to return the processed user inputs"
+  ],
+  "elements": [
+    {
+      "keyword": "Scenario Outline",
+      "location": "Specs/features/ProcessUserInputs.feature:13",
+      "name": "Process valid user inputs -- @1.1 ",
+      "status": "passed",
+      "steps": [
+        {
+          "keyword": "Given",
+          "location": "Specs/features/ProcessUserInputs.feature:7",
+          "match": {
+            "arguments": [
+              {
+                "name": "house_price",
+                "value": "0"
+              },
+              {
+                "name": "down_payment",
+                "value": "1"
+              },
+              {
+                "name": "bond_price",
+                "value": "3"
+              },
+              {
+                "name": "bank",
+                "value": "A"
+              }
+            ],
+            "location": "Specs/features/steps/ProcessUserInputs.py:8"
+          },
+          "name": "the user inputs for the processor are \"0\", \"1\", \"3\", and \"A\"",
+          "result": {
+            "duration": 0.0009963512420654297,
+            "status": "passed"
+          },
+          "step_type": "given"
+        },
+        {
+          "keyword": "When",
+          "location": "Specs/features/ProcessUserInputs.feature:8",
+          "match": {
+            "arguments": [],
+            "location": "Specs/features/steps/ProcessUserInputs.py:18"
+          },
+          "name": "the user inputs are processed",
+          "result": {
+            "duration": 0.04342532157897949,
+            "status": "passed"
+          },
+          "step_type": "when"
+        },
+        {
+          "keyword": "Then",
+          "location": "Specs/features/ProcessUserInputs.feature:9",
+          "match": {
+            "arguments": [
+              {
+                "name": "expected_output",
+                "value": "{'house_price': 0, 'down_payment': 1, 'bond_price': 0.03, 'dropdown': 'A'}"
+              }
+            ],
+            "location": "Specs/features/steps/ProcessUserInputs.py:24"
+          },
+          "name": "the processer runs without errors and return \"{'house_price': 0, 'down_payment': 1, 'bond_price': 0.03, 'dropdown': 'A'}\"",
+          "result": {
+            "duration": 0.0,
+            "status": "passed"
+          },
+          "step_type": "then"
+        }
+      ],
+      "tags": [
+        "ProcessUserInputs_valid_inputs"
+      ],
+      "type": "scenario"
+    },
+    {
+      "keyword": "Scenario Outline",
+      "location": "Specs/features/ProcessUserInputs.feature:14",
+      "name": "Process valid user inputs -- @1.2 ",
+      "status": "passed",
+      "steps": [
+        {
+          "keyword": "Given",
+          "location": "Specs/features/ProcessUserInputs.feature:7",
+          "match": {
+            "arguments": [
+              {
+                "name": "house_price",
+                "value": "1"
+              },
+              {
+                "name": "down_payment",
+                "value": "0"
+              },
+              {
+                "name": "bond_price",
+                "value": "3"
+              },
+              {
+                "name": "bank",
+                "value": "A"
+              }
+            ],
+            "location": "Specs/features/steps/ProcessUserInputs.py:8"
+          },
+          "name": "the user inputs for the processor are \"1\", \"0\", \"3\", and \"A\"",
+          "result": {
+            "duration": 0.0,
+            "status": "passed"
+          },
+          "step_type": "given"
+        },
+        {
+          "keyword": "When",
+          "location": "Specs/features/ProcessUserInputs.feature:8",
+          "match": {
+            "arguments": [],
+            "location": "Specs/features/steps/ProcessUserInputs.py:18"
+          },
+          "name": "the user inputs are processed",
+          "result": {
+            "duration": 0.0,
+            "status": "passed"
+          },
+          "step_type": "when"
+        },
+        {
+          "keyword": "Then",
+          "location": "Specs/features/ProcessUserInputs.feature:9",
+          "match": {
+            "arguments": [
+              {
+                "name": "expected_output",
+                "value": "{'house_price': 1, 'down_payment': 0, 'bond_price': 0.03, 'dropdown': 'A'}"
+              }
+            ],
+            "location": "Specs/features/steps/ProcessUserInputs.py:24"
+          },
+          "name": "the processer runs without errors and return \"{'house_price': 1, 'down_payment': 0, 'bond_price': 0.03, 'dropdown': 'A'}\"",
+          "result": {
+            "duration": 0.0,
+            "status": "passed"
+          },
+          "step_type": "then"
+        }
+      ],
+      "tags": [
+        "ProcessUserInputs_valid_inputs"
+      ],
+      "type": "scenario"
+    },
+    {
+      "keyword": "Scenario Outline",
+      "location": "Specs/features/ProcessUserInputs.feature:15",
+      "name": "Process valid user inputs -- @1.3 ",
+      "status": "passed",
+      "steps": [
+        {
+          "keyword": "Given",
+          "location": "Specs/features/ProcessUserInputs.feature:7",
+          "match": {
+            "arguments": [
+              {
+                "name": "house_price",
+                "value": "1"
+              },
+              {
+                "name": "down_payment",
+                "value": "1"
+              },
+              {
+                "name": "bond_price",
+                "value": "2,001"
+              },
+              {
+                "name": "bank",
+                "value": "A"
+              }
+            ],
+            "location": "Specs/features/steps/ProcessUserInputs.py:8"
+          },
+          "name": "the user inputs for the processor are \"1\", \"1\", \"2,001\", and \"A\"",
+          "result": {
+            "duration": 0.0009961128234863281,
+            "status": "passed"
+          },
+          "step_type": "given"
+        },
+        {
+          "keyword": "When",
+          "location": "Specs/features/ProcessUserInputs.feature:8",
+          "match": {
+            "arguments": [],
+            "location": "Specs/features/steps/ProcessUserInputs.py:18"
+          },
+          "name": "the user inputs are processed",
+          "result": {
+            "duration": 0.0,
+            "status": "passed"
+          },
+          "step_type": "when"
+        },
+        {
+          "keyword": "Then",
+          "location": "Specs/features/ProcessUserInputs.feature:9",
+          "match": {
+            "arguments": [
+              {
+                "name": "expected_output",
+                "value": "{'house_price': 1, 'down_payment': 1, 'bond_price': 0.02001, 'dropdown': 'A'}"
+              }
+            ],
+            "location": "Specs/features/steps/ProcessUserInputs.py:24"
+          },
+          "name": "the processer runs without errors and return \"{'house_price': 1, 'down_payment': 1, 'bond_price': 0.02001, 'dropdown': 'A'}\"",
+          "result": {
+            "duration": 0.0,
+            "status": "passed"
+          },
+          "step_type": "then"
+        }
+      ],
+      "tags": [
+        "ProcessUserInputs_valid_inputs"
+      ],
+      "type": "scenario"
+    },
+    {
+      "keyword": "Scenario Outline",
+      "location": "Specs/features/ProcessUserInputs.feature:16",
+      "name": "Process valid user inputs -- @1.4 ",
+      "status": "passed",
+      "steps": [
+        {
+          "keyword": "Given",
+          "location": "Specs/features/ProcessUserInputs.feature:7",
+          "match": {
+            "arguments": [
+              {
+                "name": "house_price",
+                "value": "10.000.000"
+              },
+              {
+                "name": "down_payment",
+                "value": "1"
+              },
+              {
+                "name": "bond_price",
+                "value": "3"
+              },
+              {
+                "name": "bank",
+                "value": "A"
+              }
+            ],
+            "location": "Specs/features/steps/ProcessUserInputs.py:8"
+          },
+          "name": "the user inputs for the processor are \"10.000.000\", \"1\", \"3\", and \"A\"",
+          "result": {
+            "duration": 0.001001119613647461,
+            "status": "passed"
+          },
+          "step_type": "given"
+        },
+        {
+          "keyword": "When",
+          "location": "Specs/features/ProcessUserInputs.feature:8",
+          "match": {
+            "arguments": [],
+            "location": "Specs/features/steps/ProcessUserInputs.py:18"
+          },
+          "name": "the user inputs are processed",
+          "result": {
+            "duration": 0.0,
+            "status": "passed"
+          },
+          "step_type": "when"
+        },
+        {
+          "keyword": "Then",
+          "location": "Specs/features/ProcessUserInputs.feature:9",
+          "match": {
+            "arguments": [
+              {
+                "name": "expected_output",
+                "value": "{'house_price': 10_000_000, 'down_payment': 1, 'bond_price': 0.03, 'dropdown': 'A'}"
+              }
+            ],
+            "location": "Specs/features/steps/ProcessUserInputs.py:24"
+          },
+          "name": "the processer runs without errors and return \"{'house_price': 10_000_000, 'down_payment': 1, 'bond_price': 0.03, 'dropdown': 'A'}\"",
+          "result": {
+            "duration": 0.0009989738464355469,
+            "status": "passed"
+          },
+          "step_type": "then"
+        }
+      ],
+      "tags": [
+        "ProcessUserInputs_valid_inputs"
+      ],
+      "type": "scenario"
+    },
+    {
+      "keyword": "Scenario Outline",
+      "location": "Specs/features/ProcessUserInputs.feature:17",
+      "name": "Process valid user inputs -- @1.5 ",
+      "status": "passed",
+      "steps": [
+        {
+          "keyword": "Given",
+          "location": "Specs/features/ProcessUserInputs.feature:7",
+          "match": {
+            "arguments": [
+              {
+                "name": "house_price",
+                "value": "1"
+              },
+              {
+                "name": "down_payment",
+                "value": "10.000.000"
+              },
+              {
+                "name": "bond_price",
+                "value": "3"
+              },
+              {
+                "name": "bank",
+                "value": "A"
+              }
+            ],
+            "location": "Specs/features/steps/ProcessUserInputs.py:8"
+          },
+          "name": "the user inputs for the processor are \"1\", \"10.000.000\", \"3\", and \"A\"",
+          "result": {
+            "duration": 0.0,
+            "status": "passed"
+          },
+          "step_type": "given"
+        },
+        {
+          "keyword": "When",
+          "location": "Specs/features/ProcessUserInputs.feature:8",
+          "match": {
+            "arguments": [],
+            "location": "Specs/features/steps/ProcessUserInputs.py:18"
+          },
+          "name": "the user inputs are processed",
+          "result": {
+            "duration": 0.0009963512420654297,
+            "status": "passed"
+          },
+          "step_type": "when"
+        },
+        {
+          "keyword": "Then",
+          "location": "Specs/features/ProcessUserInputs.feature:9",
+          "match": {
+            "arguments": [
+              {
+                "name": "expected_output",
+                "value": "{'house_price': 1, 'down_payment': 10_000_000, 'bond_price': 0.03, 'dropdown': 'A'}"
+              }
+            ],
+            "location": "Specs/features/steps/ProcessUserInputs.py:24"
+          },
+          "name": "the processer runs without errors and return \"{'house_price': 1, 'down_payment': 10_000_000, 'bond_price': 0.03, 'dropdown': 'A'}\"",
+          "result": {
+            "duration": 0.0,
+            "status": "passed"
+          },
+          "step_type": "then"
+        }
+      ],
+      "tags": [
+        "ProcessUserInputs_valid_inputs"
+      ],
+      "type": "scenario"
+    },
+    {
+      "keyword": "Scenario Outline",
+      "location": "Specs/features/ProcessUserInputs.feature:18",
+      "name": "Process valid user inputs -- @1.6 ",
+      "status": "passed",
+      "steps": [
+        {
+          "keyword": "Given",
+          "location": "Specs/features/ProcessUserInputs.feature:7",
+          "match": {
+            "arguments": [
+              {
+                "name": "house_price",
+                "value": "1"
+              },
+              {
+                "name": "down_payment",
+                "value": "1"
+              },
+              {
+                "name": "bond_price",
+                "value": "200"
+              },
+              {
+                "name": "bank",
+                "value": "A"
+              }
+            ],
+            "location": "Specs/features/steps/ProcessUserInputs.py:8"
+          },
+          "name": "the user inputs for the processor are \"1\", \"1\", \"200\", and \"A\"",
+          "result": {
+            "duration": 0.0,
+            "status": "passed"
+          },
+          "step_type": "given"
+        },
+        {
+          "keyword": "When",
+          "location": "Specs/features/ProcessUserInputs.feature:8",
+          "match": {
+            "arguments": [],
+            "location": "Specs/features/steps/ProcessUserInputs.py:18"
+          },
+          "name": "the user inputs are processed",
+          "result": {
+            "duration": 0.001003265380859375,
+            "status": "passed"
+          },
+          "step_type": "when"
+        },
+        {
+          "keyword": "Then",
+          "location": "Specs/features/ProcessUserInputs.feature:9",
+          "match": {
+            "arguments": [
+              {
+                "name": "expected_output",
+                "value": "{'house_price': 1, 'down_payment': 1, 'bond_price': 2, 'dropdown': 'A'}"
+              }
+            ],
+            "location": "Specs/features/steps/ProcessUserInputs.py:24"
+          },
+          "name": "the processer runs without errors and return \"{'house_price': 1, 'down_payment': 1, 'bond_price': 2, 'dropdown': 'A'}\"",
+          "result": {
+            "duration": 0.0005087852478027344,
+            "status": "passed"
+          },
+          "step_type": "then"
+        }
+      ],
+      "tags": [
+        "ProcessUserInputs_valid_inputs"
+      ],
+      "type": "scenario"
+    },
+    {
+      "keyword": "Scenario Outline",
+      "location": "Specs/features/ProcessUserInputs.feature:19",
+      "name": "Process valid user inputs -- @1.7 ",
+      "status": "passed",
+      "steps": [
+        {
+          "keyword": "Given",
+          "location": "Specs/features/ProcessUserInputs.feature:7",
+          "match": {
+            "arguments": [
+              {
+                "name": "house_price",
+                "value": "1.000.000"
+              },
+              {
+                "name": "down_payment",
+                "value": "50.000"
+              },
+              {
+                "name": "bond_price",
+                "value": "95"
+              },
+              {
+                "name": "bank",
+                "value": "A"
+              }
+            ],
+            "location": "Specs/features/steps/ProcessUserInputs.py:8"
+          },
+          "name": "the user inputs for the processor are \"1.000.000\", \"50.000\", \"95\", and \"A\"",
+          "result": {
+            "duration": 0.0,
+            "status": "passed"
+          },
+          "step_type": "given"
+        },
+        {
+          "keyword": "When",
+          "location": "Specs/features/ProcessUserInputs.feature:8",
+          "match": {
+            "arguments": [],
+            "location": "Specs/features/steps/ProcessUserInputs.py:18"
+          },
+          "name": "the user inputs are processed",
+          "result": {
+            "duration": 0.0010128021240234375,
+            "status": "passed"
+          },
+          "step_type": "when"
+        },
+        {
+          "keyword": "Then",
+          "location": "Specs/features/ProcessUserInputs.feature:9",
+          "match": {
+            "arguments": [
+              {
+                "name": "expected_output",
+                "value": "{'house_price': 1_000_000, 'down_payment': 50_000, 'bond_price': 0.95, 'dropdown': 'A'}"
+              }
+            ],
+            "location": "Specs/features/steps/ProcessUserInputs.py:24"
+          },
+          "name": "the processer runs without errors and return \"{'house_price': 1_000_000, 'down_payment': 50_000, 'bond_price': 0.95, 'dropdown': 'A'}\"",
+          "result": {
+            "duration": 0.0,
+            "status": "passed"
+          },
+          "step_type": "then"
+        }
+      ],
+      "tags": [
+        "ProcessUserInputs_valid_inputs"
+      ],
+      "type": "scenario"
+    }
+  ],
+  "keyword": "Feature",
+  "location": "Specs/features/ProcessUserInputs.feature:1",
+  "name": "Validate ProcessUserInput with correct inputs Feature",
+  "status": "passed",
+  "tags": []
+},
+
+{
+  "description": [
+    "If my user inputs are invalid",
+    "I want the processor to fail"
+  ],
+  "elements": [
+    {
+      "keyword": "Scenario Outline",
+      "location": "Specs/features/ProcessUserInputs_ValueError.feature:13",
+      "name": "Process invalid user inputs -- @1.1 ",
+      "status": "passed",
+      "steps": [
+        {
+          "keyword": "Given",
+          "location": "Specs/features/ProcessUserInputs_ValueError.feature:7",
+          "match": {
+            "arguments": [
+              {
+                "name": "house_price",
+                "value": "0"
+              },
+              {
+                "name": "down_payment",
+                "value": "-1"
+              },
+              {
+                "name": "bond_price",
+                "value": "3"
+              },
+              {
+                "name": "bank",
+                "value": "A"
+              }
+            ],
+            "location": "Specs/features/steps/ProcessUserInputs_ValueError.py:8"
+          },
+          "name": "some of the these user inputs \"0\", \"-1\", \"3\", and \"A\" are invalid",
+          "result": {
+            "duration": 0.0010013580322265625,
+            "status": "passed"
+          },
+          "step_type": "given"
+        },
+        {
+          "keyword": "When",
+          "location": "Specs/features/ProcessUserInputs_ValueError.feature:8",
+          "match": {
+            "arguments": [],
+            "location": "Specs/features/steps/ProcessUserInputs_ValueError.py:19"
+          },
+          "name": "the invalid user inputs are processed",
+          "result": {
+            "duration": 0.0,
+            "status": "passed"
+          },
+          "step_type": "when"
+        },
+        {
+          "keyword": "Then",
+          "location": "Specs/features/ProcessUserInputs_ValueError.feature:9",
+          "match": {
+            "arguments": [],
+            "location": "Specs/features/steps/ProcessUserInputs_ValueError.py:24"
+          },
+          "name": "the processer fails and raises a ValueError",
+          "result": {
+            "duration": 0.0015192031860351562,
+            "status": "passed"
+          },
+          "step_type": "then"
+        }
+      ],
+      "tags": [
+        "ProcessUserInputs_invalid_inputs"
+      ],
+      "type": "scenario"
+    },
+    {
+      "keyword": "Scenario Outline",
+      "location": "Specs/features/ProcessUserInputs_ValueError.feature:14",
+      "name": "Process invalid user inputs -- @1.2 ",
+      "status": "passed",
+      "steps": [
+        {
+          "keyword": "Given",
+          "location": "Specs/features/ProcessUserInputs_ValueError.feature:7",
+          "match": {
+            "arguments": [
+              {
+                "name": "house_price",
+                "value": "1"
+              },
+              {
+                "name": "down_payment",
+                "value": "0"
+              },
+              {
+                "name": "bond_price",
+                "value": "2"
+              },
+              {
+                "name": "bank",
+                "value": "A"
+              }
+            ],
+            "location": "Specs/features/steps/ProcessUserInputs_ValueError.py:8"
+          },
+          "name": "some of the these user inputs \"1\", \"0\", \"2\", and \"A\" are invalid",
+          "result": {
+            "duration": 0.0,
+            "status": "passed"
+          },
+          "step_type": "given"
+        },
+        {
+          "keyword": "When",
+          "location": "Specs/features/ProcessUserInputs_ValueError.feature:8",
+          "match": {
+            "arguments": [],
+            "location": "Specs/features/steps/ProcessUserInputs_ValueError.py:19"
+          },
+          "name": "the invalid user inputs are processed",
+          "result": {
+            "duration": 0.0,
+            "status": "passed"
+          },
+          "step_type": "when"
+        },
+        {
+          "keyword": "Then",
+          "location": "Specs/features/ProcessUserInputs_ValueError.feature:9",
+          "match": {
+            "arguments": [],
+            "location": "Specs/features/steps/ProcessUserInputs_ValueError.py:24"
+          },
+          "name": "the processer fails and raises a ValueError",
+          "result": {
+            "duration": 0.0,
+            "status": "passed"
+          },
+          "step_type": "then"
+        }
+      ],
+      "tags": [
+        "ProcessUserInputs_invalid_inputs"
+      ],
+      "type": "scenario"
+    },
+    {
+      "keyword": "Scenario Outline",
+      "location": "Specs/features/ProcessUserInputs_ValueError.feature:15",
+      "name": "Process invalid user inputs -- @1.3 ",
+      "status": "passed",
+      "steps": [
+        {
+          "keyword": "Given",
+          "location": "Specs/features/ProcessUserInputs_ValueError.feature:7",
+          "match": {
+            "arguments": [
+              {
+                "name": "house_price",
+                "value": "-1"
+              },
+              {
+                "name": "down_payment",
+                "value": "1"
+              },
+              {
+                "name": "bond_price",
+                "value": "3"
+              },
+              {
+                "name": "bank",
+                "value": "A"
+              }
+            ],
+            "location": "Specs/features/steps/ProcessUserInputs_ValueError.py:8"
+          },
+          "name": "some of the these user inputs \"-1\", \"1\", \"3\", and \"A\" are invalid",
+          "result": {
+            "duration": 0.0010030269622802734,
+            "status": "passed"
+          },
+          "step_type": "given"
+        },
+        {
+          "keyword": "When",
+          "location": "Specs/features/ProcessUserInputs_ValueError.feature:8",
+          "match": {
+            "arguments": [],
+            "location": "Specs/features/steps/ProcessUserInputs_ValueError.py:19"
+          },
+          "name": "the invalid user inputs are processed",
+          "result": {
+            "duration": 0.0,
+            "status": "passed"
+          },
+          "step_type": "when"
+        },
+        {
+          "keyword": "Then",
+          "location": "Specs/features/ProcessUserInputs_ValueError.feature:9",
+          "match": {
+            "arguments": [],
+            "location": "Specs/features/steps/ProcessUserInputs_ValueError.py:24"
+          },
+          "name": "the processer fails and raises a ValueError",
+          "result": {
+            "duration": 0.0010035037994384766,
+            "status": "passed"
+          },
+          "step_type": "then"
+        }
+      ],
+      "tags": [
+        "ProcessUserInputs_invalid_inputs"
+      ],
+      "type": "scenario"
+    },
+    {
+      "keyword": "Scenario Outline",
+      "location": "Specs/features/ProcessUserInputs_ValueError.feature:16",
+      "name": "Process invalid user inputs -- @1.4 ",
+      "status": "passed",
+      "steps": [
+        {
+          "keyword": "Given",
+          "location": "Specs/features/ProcessUserInputs_ValueError.feature:7",
+          "match": {
+            "arguments": [
+              {
+                "name": "house_price",
+                "value": "-1"
+              },
+              {
+                "name": "down_payment",
+                "value": "-1"
+              },
+              {
+                "name": "bond_price",
+                "value": "3"
+              },
+              {
+                "name": "bank",
+                "value": "A"
+              }
+            ],
+            "location": "Specs/features/steps/ProcessUserInputs_ValueError.py:8"
+          },
+          "name": "some of the these user inputs \"-1\", \"-1\", \"3\", and \"A\" are invalid",
+          "result": {
+            "duration": 0.0009918212890625,
+            "status": "passed"
+          },
+          "step_type": "given"
+        },
+        {
+          "keyword": "When",
+          "location": "Specs/features/ProcessUserInputs_ValueError.feature:8",
+          "match": {
+            "arguments": [],
+            "location": "Specs/features/steps/ProcessUserInputs_ValueError.py:19"
+          },
+          "name": "the invalid user inputs are processed",
+          "result": {
+            "duration": 0.0,
+            "status": "passed"
+          },
+          "step_type": "when"
+        },
+        {
+          "keyword": "Then",
+          "location": "Specs/features/ProcessUserInputs_ValueError.feature:9",
+          "match": {
+            "arguments": [],
+            "location": "Specs/features/steps/ProcessUserInputs_ValueError.py:24"
+          },
+          "name": "the processer fails and raises a ValueError",
+          "result": {
+            "duration": 0.0,
+            "status": "passed"
+          },
+          "step_type": "then"
+        }
+      ],
+      "tags": [
+        "ProcessUserInputs_invalid_inputs"
+      ],
+      "type": "scenario"
+    },
+    {
+      "keyword": "Scenario Outline",
+      "location": "Specs/features/ProcessUserInputs_ValueError.feature:17",
+      "name": "Process invalid user inputs -- @1.5 ",
+      "status": "passed",
+      "steps": [
+        {
+          "keyword": "Given",
+          "location": "Specs/features/ProcessUserInputs_ValueError.feature:7",
+          "match": {
+            "arguments": [
+              {
+                "name": "house_price",
+                "value": "1"
+              },
+              {
+                "name": "down_payment",
+                "value": "-1"
+              },
+              {
+                "name": "bond_price",
+                "value": "2"
+              },
+              {
+                "name": "bank",
+                "value": "A"
+              }
+            ],
+            "location": "Specs/features/steps/ProcessUserInputs_ValueError.py:8"
+          },
+          "name": "some of the these user inputs \"1\", \"-1\", \"2\", and \"A\" are invalid",
+          "result": {
+            "duration": 0.0,
+            "status": "passed"
+          },
+          "step_type": "given"
+        },
+        {
+          "keyword": "When",
+          "location": "Specs/features/ProcessUserInputs_ValueError.feature:8",
+          "match": {
+            "arguments": [],
+            "location": "Specs/features/steps/ProcessUserInputs_ValueError.py:19"
+          },
+          "name": "the invalid user inputs are processed",
+          "result": {
+            "duration": 0.0009996891021728516,
+            "status": "passed"
+          },
+          "step_type": "when"
+        },
+        {
+          "keyword": "Then",
+          "location": "Specs/features/ProcessUserInputs_ValueError.feature:9",
+          "match": {
+            "arguments": [],
+            "location": "Specs/features/steps/ProcessUserInputs_ValueError.py:24"
+          },
+          "name": "the processer fails and raises a ValueError",
+          "result": {
+            "duration": 0.0,
+            "status": "passed"
+          },
+          "step_type": "then"
+        }
+      ],
+      "tags": [
+        "ProcessUserInputs_invalid_inputs"
+      ],
+      "type": "scenario"
+    },
+    {
+      "keyword": "Scenario Outline",
+      "location": "Specs/features/ProcessUserInputs_ValueError.feature:18",
+      "name": "Process invalid user inputs -- @1.6 ",
+      "status": "passed",
+      "steps": [
+        {
+          "keyword": "Given",
+          "location": "Specs/features/ProcessUserInputs_ValueError.feature:7",
+          "match": {
+            "arguments": [
+              {
+                "name": "house_price",
+                "value": "-1"
+              },
+              {
+                "name": "down_payment",
+                "value": "1"
+              },
+              {
+                "name": "bond_price",
+                "value": "2"
+              },
+              {
+                "name": "bank",
+                "value": "A"
+              }
+            ],
+            "location": "Specs/features/steps/ProcessUserInputs_ValueError.py:8"
+          },
+          "name": "some of the these user inputs \"-1\", \"1\", \"2\", and \"A\" are invalid",
+          "result": {
+            "duration": 0.0,
+            "status": "passed"
+          },
+          "step_type": "given"
+        },
+        {
+          "keyword": "When",
+          "location": "Specs/features/ProcessUserInputs_ValueError.feature:8",
+          "match": {
+            "arguments": [],
+            "location": "Specs/features/steps/ProcessUserInputs_ValueError.py:19"
+          },
+          "name": "the invalid user inputs are processed",
+          "result": {
+            "duration": 0.0,
+            "status": "passed"
+          },
+          "step_type": "when"
+        },
+        {
+          "keyword": "Then",
+          "location": "Specs/features/ProcessUserInputs_ValueError.feature:9",
+          "match": {
+            "arguments": [],
+            "location": "Specs/features/steps/ProcessUserInputs_ValueError.py:24"
+          },
+          "name": "the processer fails and raises a ValueError",
+          "result": {
+            "duration": 0.0010008811950683594,
+            "status": "passed"
+          },
+          "step_type": "then"
+        }
+      ],
+      "tags": [
+        "ProcessUserInputs_invalid_inputs"
+      ],
+      "type": "scenario"
+    },
+    {
+      "keyword": "Scenario Outline",
+      "location": "Specs/features/ProcessUserInputs_ValueError.feature:19",
+      "name": "Process invalid user inputs -- @1.7 ",
+      "status": "passed",
+      "steps": [
+        {
+          "keyword": "Given",
+          "location": "Specs/features/ProcessUserInputs_ValueError.feature:7",
+          "match": {
+            "arguments": [
+              {
+                "name": "house_price",
+                "value": "-1"
+              },
+              {
+                "name": "down_payment",
+                "value": "-1"
+              },
+              {
+                "name": "bond_price",
+                "value": "2"
+              },
+              {
+                "name": "bank",
+                "value": "A"
+              }
+            ],
+            "location": "Specs/features/steps/ProcessUserInputs_ValueError.py:8"
+          },
+          "name": "some of the these user inputs \"-1\", \"-1\", \"2\", and \"A\" are invalid",
+          "result": {
+            "duration": 0.0,
+            "status": "passed"
+          },
+          "step_type": "given"
+        },
+        {
+          "keyword": "When",
+          "location": "Specs/features/ProcessUserInputs_ValueError.feature:8",
+          "match": {
+            "arguments": [],
+            "location": "Specs/features/steps/ProcessUserInputs_ValueError.py:19"
+          },
+          "name": "the invalid user inputs are processed",
+          "result": {
+            "duration": 0.0015110969543457031,
+            "status": "passed"
+          },
+          "step_type": "when"
+        },
+        {
+          "keyword": "Then",
+          "location": "Specs/features/ProcessUserInputs_ValueError.feature:9",
+          "match": {
+            "arguments": [],
+            "location": "Specs/features/steps/ProcessUserInputs_ValueError.py:24"
+          },
+          "name": "the processer fails and raises a ValueError",
+          "result": {
+            "duration": 0.0,
+            "status": "passed"
+          },
+          "step_type": "then"
+        }
+      ],
+      "tags": [
+        "ProcessUserInputs_invalid_inputs"
+      ],
+      "type": "scenario"
+    },
+    {
+      "keyword": "Scenario Outline",
+      "location": "Specs/features/ProcessUserInputs_ValueError.feature:20",
+      "name": "Process invalid user inputs -- @1.8 ",
+      "status": "passed",
+      "steps": [
+        {
+          "keyword": "Given",
+          "location": "Specs/features/ProcessUserInputs_ValueError.feature:7",
+          "match": {
+            "arguments": [
+              {
+                "name": "house_price",
+                "value": "0"
+              },
+              {
+                "name": "down_payment",
+                "value": "a"
+              },
+              {
+                "name": "bond_price",
+                "value": "3"
+              },
+              {
+                "name": "bank",
+                "value": "A"
+              }
+            ],
+            "location": "Specs/features/steps/ProcessUserInputs_ValueError.py:8"
+          },
+          "name": "some of the these user inputs \"0\", \"a\", \"3\", and \"A\" are invalid",
+          "result": {
+            "duration": 0.0,
+            "status": "passed"
+          },
+          "step_type": "given"
+        },
+        {
+          "keyword": "When",
+          "location": "Specs/features/ProcessUserInputs_ValueError.feature:8",
+          "match": {
+            "arguments": [],
+            "location": "Specs/features/steps/ProcessUserInputs_ValueError.py:19"
+          },
+          "name": "the invalid user inputs are processed",
+          "result": {
+            "duration": 0.0010013580322265625,
+            "status": "passed"
+          },
+          "step_type": "when"
+        },
+        {
+          "keyword": "Then",
+          "location": "Specs/features/ProcessUserInputs_ValueError.feature:9",
+          "match": {
+            "arguments": [],
+            "location": "Specs/features/steps/ProcessUserInputs_ValueError.py:24"
+          },
+          "name": "the processer fails and raises a ValueError",
+          "result": {
+            "duration": 0.0,
+            "status": "passed"
+          },
+          "step_type": "then"
+        }
+      ],
+      "tags": [
+        "ProcessUserInputs_invalid_inputs"
+      ],
+      "type": "scenario"
+    },
+    {
+      "keyword": "Scenario Outline",
+      "location": "Specs/features/ProcessUserInputs_ValueError.feature:21",
+      "name": "Process invalid user inputs -- @1.9 ",
+      "status": "passed",
+      "steps": [
+        {
+          "keyword": "Given",
+          "location": "Specs/features/ProcessUserInputs_ValueError.feature:7",
+          "match": {
+            "arguments": [
+              {
+                "name": "house_price",
+                "value": "1"
+              },
+              {
+                "name": "down_payment",
+                "value": "0"
+              },
+              {
+                "name": "bond_price",
+                "value": "a"
+              },
+              {
+                "name": "bank",
+                "value": "A"
+              }
+            ],
+            "location": "Specs/features/steps/ProcessUserInputs_ValueError.py:8"
+          },
+          "name": "some of the these user inputs \"1\", \"0\", \"a\", and \"A\" are invalid",
+          "result": {
+            "duration": 0.0,
+            "status": "passed"
+          },
+          "step_type": "given"
+        },
+        {
+          "keyword": "When",
+          "location": "Specs/features/ProcessUserInputs_ValueError.feature:8",
+          "match": {
+            "arguments": [],
+            "location": "Specs/features/steps/ProcessUserInputs_ValueError.py:19"
+          },
+          "name": "the invalid user inputs are processed",
+          "result": {
+            "duration": 0.0009989738464355469,
+            "status": "passed"
+          },
+          "step_type": "when"
+        },
+        {
+          "keyword": "Then",
+          "location": "Specs/features/ProcessUserInputs_ValueError.feature:9",
+          "match": {
+            "arguments": [],
+            "location": "Specs/features/steps/ProcessUserInputs_ValueError.py:24"
+          },
+          "name": "the processer fails and raises a ValueError",
+          "result": {
+            "duration": 0.0,
+            "status": "passed"
+          },
+          "step_type": "then"
+        }
+      ],
+      "tags": [
+        "ProcessUserInputs_invalid_inputs"
+      ],
+      "type": "scenario"
+    },
+    {
+      "keyword": "Scenario Outline",
+      "location": "Specs/features/ProcessUserInputs_ValueError.feature:22",
+      "name": "Process invalid user inputs -- @1.10 ",
+      "status": "passed",
+      "steps": [
+        {
+          "keyword": "Given",
+          "location": "Specs/features/ProcessUserInputs_ValueError.feature:7",
+          "match": {
+            "arguments": [
+              {
+                "name": "house_price",
+                "value": "a"
+              },
+              {
+                "name": "down_payment",
+                "value": "1"
+              },
+              {
+                "name": "bond_price",
+                "value": "3"
+              },
+              {
+                "name": "bank",
+                "value": "A"
+              }
+            ],
+            "location": "Specs/features/steps/ProcessUserInputs_ValueError.py:8"
+          },
+          "name": "some of the these user inputs \"a\", \"1\", \"3\", and \"A\" are invalid",
+          "result": {
+            "duration": 0.0,
+            "status": "passed"
+          },
+          "step_type": "given"
+        },
+        {
+          "keyword": "When",
+          "location": "Specs/features/ProcessUserInputs_ValueError.feature:8",
+          "match": {
+            "arguments": [],
+            "location": "Specs/features/steps/ProcessUserInputs_ValueError.py:19"
+          },
+          "name": "the invalid user inputs are processed",
+          "result": {
+            "duration": 0.0,
+            "status": "passed"
+          },
+          "step_type": "when"
+        },
+        {
+          "keyword": "Then",
+          "location": "Specs/features/ProcessUserInputs_ValueError.feature:9",
+          "match": {
+            "arguments": [],
+            "location": "Specs/features/steps/ProcessUserInputs_ValueError.py:24"
+          },
+          "name": "the processer fails and raises a ValueError",
+          "result": {
+            "duration": 0.0009989738464355469,
+            "status": "passed"
+          },
+          "step_type": "then"
+        }
+      ],
+      "tags": [
+        "ProcessUserInputs_invalid_inputs"
+      ],
+      "type": "scenario"
+    },
+    {
+      "keyword": "Scenario Outline",
+      "location": "Specs/features/ProcessUserInputs_ValueError.feature:23",
+      "name": "Process invalid user inputs -- @1.11 ",
+      "status": "passed",
+      "steps": [
+        {
+          "keyword": "Given",
+          "location": "Specs/features/ProcessUserInputs_ValueError.feature:7",
+          "match": {
+            "arguments": [
+              {
+                "name": "house_price",
+                "value": "0"
+              },
+              {
+                "name": "down_payment",
+                "value": "'"
+              },
+              {
+                "name": "bond_price",
+                "value": "3"
+              },
+              {
+                "name": "bank",
+                "value": "A"
+              }
+            ],
+            "location": "Specs/features/steps/ProcessUserInputs_ValueError.py:8"
+          },
+          "name": "some of the these user inputs \"0\", \"'\", \"3\", and \"A\" are invalid",
+          "result": {
+            "duration": 0.0,
+            "status": "passed"
+          },
+          "step_type": "given"
+        },
+        {
+          "keyword": "When",
+          "location": "Specs/features/ProcessUserInputs_ValueError.feature:8",
+          "match": {
+            "arguments": [],
+            "location": "Specs/features/steps/ProcessUserInputs_ValueError.py:19"
+          },
+          "name": "the invalid user inputs are processed",
+          "result": {
+            "duration": 0.0009996891021728516,
+            "status": "passed"
+          },
+          "step_type": "when"
+        },
+        {
+          "keyword": "Then",
+          "location": "Specs/features/ProcessUserInputs_ValueError.feature:9",
+          "match": {
+            "arguments": [],
+            "location": "Specs/features/steps/ProcessUserInputs_ValueError.py:24"
+          },
+          "name": "the processer fails and raises a ValueError",
+          "result": {
+            "duration": 0.0,
+            "status": "passed"
+          },
+          "step_type": "then"
+        }
+      ],
+      "tags": [
+        "ProcessUserInputs_invalid_inputs"
+      ],
+      "type": "scenario"
+    },
+    {
+      "keyword": "Scenario Outline",
+      "location": "Specs/features/ProcessUserInputs_ValueError.feature:24",
+      "name": "Process invalid user inputs -- @1.12 ",
+      "status": "passed",
+      "steps": [
+        {
+          "keyword": "Given",
+          "location": "Specs/features/ProcessUserInputs_ValueError.feature:7",
+          "match": {
+            "arguments": [
+              {
+                "name": "house_price",
+                "value": "1"
+              },
+              {
+                "name": "down_payment",
+                "value": "0"
+              },
+              {
+                "name": "bond_price",
+                "value": "'"
+              },
+              {
+                "name": "bank",
+                "value": "A"
+              }
+            ],
+            "location": "Specs/features/steps/ProcessUserInputs_ValueError.py:8"
+          },
+          "name": "some of the these user inputs \"1\", \"0\", \"'\", and \"A\" are invalid",
+          "result": {
+            "duration": 0.0,
+            "status": "passed"
+          },
+          "step_type": "given"
+        },
+        {
+          "keyword": "When",
+          "location": "Specs/features/ProcessUserInputs_ValueError.feature:8",
+          "match": {
+            "arguments": [],
+            "location": "Specs/features/steps/ProcessUserInputs_ValueError.py:19"
+          },
+          "name": "the invalid user inputs are processed",
+          "result": {
+            "duration": 0.0010006427764892578,
+            "status": "passed"
+          },
+          "step_type": "when"
+        },
+        {
+          "keyword": "Then",
+          "location": "Specs/features/ProcessUserInputs_ValueError.feature:9",
+          "match": {
+            "arguments": [],
+            "location": "Specs/features/steps/ProcessUserInputs_ValueError.py:24"
+          },
+          "name": "the processer fails and raises a ValueError",
+          "result": {
+            "duration": 0.0005142688751220703,
+            "status": "passed"
+          },
+          "step_type": "then"
+        }
+      ],
+      "tags": [
+        "ProcessUserInputs_invalid_inputs"
+      ],
+      "type": "scenario"
+    },
+    {
+      "keyword": "Scenario Outline",
+      "location": "Specs/features/ProcessUserInputs_ValueError.feature:25",
+      "name": "Process invalid user inputs -- @1.13 ",
+      "status": "passed",
+      "steps": [
+        {
+          "keyword": "Given",
+          "location": "Specs/features/ProcessUserInputs_ValueError.feature:7",
+          "match": {
+            "arguments": [
+              {
+                "name": "house_price",
+                "value": "'"
+              },
+              {
+                "name": "down_payment",
+                "value": "1"
+              },
+              {
+                "name": "bond_price",
+                "value": "3"
+              },
+              {
+                "name": "bank",
+                "value": "A"
+              }
+            ],
+            "location": "Specs/features/steps/ProcessUserInputs_ValueError.py:8"
+          },
+          "name": "some of the these user inputs \"'\", \"1\", \"3\", and \"A\" are invalid",
+          "result": {
+            "duration": 0.0010097026824951172,
+            "status": "passed"
+          },
+          "step_type": "given"
+        },
+        {
+          "keyword": "When",
+          "location": "Specs/features/ProcessUserInputs_ValueError.feature:8",
+          "match": {
+            "arguments": [],
+            "location": "Specs/features/steps/ProcessUserInputs_ValueError.py:19"
+          },
+          "name": "the invalid user inputs are processed",
+          "result": {
+            "duration": 0.0,
+            "status": "passed"
+          },
+          "step_type": "when"
+        },
+        {
+          "keyword": "Then",
+          "location": "Specs/features/ProcessUserInputs_ValueError.feature:9",
+          "match": {
+            "arguments": [],
+            "location": "Specs/features/steps/ProcessUserInputs_ValueError.py:24"
+          },
+          "name": "the processer fails and raises a ValueError",
+          "result": {
+            "duration": 0.0,
+            "status": "passed"
+          },
+          "step_type": "then"
+        }
+      ],
+      "tags": [
+        "ProcessUserInputs_invalid_inputs"
+      ],
+      "type": "scenario"
+    },
+    {
+      "keyword": "Scenario Outline",
+      "location": "Specs/features/ProcessUserInputs_ValueError.feature:26",
+      "name": "Process invalid user inputs -- @1.14 ",
+      "status": "passed",
+      "steps": [
+        {
+          "keyword": "Given",
+          "location": "Specs/features/ProcessUserInputs_ValueError.feature:7",
+          "match": {
+            "arguments": [
+              {
+                "name": "house_price",
+                "value": "0"
+              },
+              {
+                "name": "down_payment",
+                "value": "''"
+              },
+              {
+                "name": "bond_price",
+                "value": "3"
+              },
+              {
+                "name": "bank",
+                "value": "A"
+              }
+            ],
+            "location": "Specs/features/steps/ProcessUserInputs_ValueError.py:8"
+          },
+          "name": "some of the these user inputs \"0\", \"''\", \"3\", and \"A\" are invalid",
+          "result": {
+            "duration": 0.0,
+            "status": "passed"
+          },
+          "step_type": "given"
+        },
+        {
+          "keyword": "When",
+          "location": "Specs/features/ProcessUserInputs_ValueError.feature:8",
+          "match": {
+            "arguments": [],
+            "location": "Specs/features/steps/ProcessUserInputs_ValueError.py:19"
+          },
+          "name": "the invalid user inputs are processed",
+          "result": {
+            "duration": 0.0010025501251220703,
+            "status": "passed"
+          },
+          "step_type": "when"
+        },
+        {
+          "keyword": "Then",
+          "location": "Specs/features/ProcessUserInputs_ValueError.feature:9",
+          "match": {
+            "arguments": [],
+            "location": "Specs/features/steps/ProcessUserInputs_ValueError.py:24"
+          },
+          "name": "the processer fails and raises a ValueError",
+          "result": {
+            "duration": 0.0,
+            "status": "passed"
+          },
+          "step_type": "then"
+        }
+      ],
+      "tags": [
+        "ProcessUserInputs_invalid_inputs"
+      ],
+      "type": "scenario"
+    },
+    {
+      "keyword": "Scenario Outline",
+      "location": "Specs/features/ProcessUserInputs_ValueError.feature:27",
+      "name": "Process invalid user inputs -- @1.15 ",
+      "status": "passed",
+      "steps": [
+        {
+          "keyword": "Given",
+          "location": "Specs/features/ProcessUserInputs_ValueError.feature:7",
+          "match": {
+            "arguments": [
+              {
+                "name": "house_price",
+                "value": "1"
+              },
+              {
+                "name": "down_payment",
+                "value": "0"
+              },
+              {
+                "name": "bond_price",
+                "value": "''"
+              },
+              {
+                "name": "bank",
+                "value": "A"
+              }
+            ],
+            "location": "Specs/features/steps/ProcessUserInputs_ValueError.py:8"
+          },
+          "name": "some of the these user inputs \"1\", \"0\", \"''\", and \"A\" are invalid",
+          "result": {
+            "duration": 0.0,
+            "status": "passed"
+          },
+          "step_type": "given"
+        },
+        {
+          "keyword": "When",
+          "location": "Specs/features/ProcessUserInputs_ValueError.feature:8",
+          "match": {
+            "arguments": [],
+            "location": "Specs/features/steps/ProcessUserInputs_ValueError.py:19"
+          },
+          "name": "the invalid user inputs are processed",
+          "result": {
+            "duration": 0.0009999275207519531,
+            "status": "passed"
+          },
+          "step_type": "when"
+        },
+        {
+          "keyword": "Then",
+          "location": "Specs/features/ProcessUserInputs_ValueError.feature:9",
+          "match": {
+            "arguments": [],
+            "location": "Specs/features/steps/ProcessUserInputs_ValueError.py:24"
+          },
+          "name": "the processer fails and raises a ValueError",
+          "result": {
+            "duration": 0.0,
+            "status": "passed"
+          },
+          "step_type": "then"
+        }
+      ],
+      "tags": [
+        "ProcessUserInputs_invalid_inputs"
+      ],
+      "type": "scenario"
+    },
+    {
+      "keyword": "Scenario Outline",
+      "location": "Specs/features/ProcessUserInputs_ValueError.feature:28",
+      "name": "Process invalid user inputs -- @1.16 ",
+      "status": "passed",
+      "steps": [
+        {
+          "keyword": "Given",
+          "location": "Specs/features/ProcessUserInputs_ValueError.feature:7",
+          "match": {
+            "arguments": [
+              {
+                "name": "house_price",
+                "value": "''"
+              },
+              {
+                "name": "down_payment",
+                "value": "1"
+              },
+              {
+                "name": "bond_price",
+                "value": "3"
+              },
+              {
+                "name": "bank",
+                "value": "A"
+              }
+            ],
+            "location": "Specs/features/steps/ProcessUserInputs_ValueError.py:8"
+          },
+          "name": "some of the these user inputs \"''\", \"1\", \"3\", and \"A\" are invalid",
+          "result": {
+            "duration": 0.0,
+            "status": "passed"
+          },
+          "step_type": "given"
+        },
+        {
+          "keyword": "When",
+          "location": "Specs/features/ProcessUserInputs_ValueError.feature:8",
+          "match": {
+            "arguments": [],
+            "location": "Specs/features/steps/ProcessUserInputs_ValueError.py:19"
+          },
+          "name": "the invalid user inputs are processed",
+          "result": {
+            "duration": 0.0,
+            "status": "passed"
+          },
+          "step_type": "when"
+        },
+        {
+          "keyword": "Then",
+          "location": "Specs/features/ProcessUserInputs_ValueError.feature:9",
+          "match": {
+            "arguments": [],
+            "location": "Specs/features/steps/ProcessUserInputs_ValueError.py:24"
+          },
+          "name": "the processer fails and raises a ValueError",
+          "result": {
+            "duration": 0.0,
+            "status": "passed"
+          },
+          "step_type": "then"
+        }
+      ],
+      "tags": [
+        "ProcessUserInputs_invalid_inputs"
+      ],
+      "type": "scenario"
+    }
+  ],
+  "keyword": "Feature",
+  "location": "Specs/features/ProcessUserInputs_ValueError.feature:1",
+  "name": "Validate ProcessUserInput with incorrect inputs Feature",
   "status": "passed",
   "tags": []
 }
